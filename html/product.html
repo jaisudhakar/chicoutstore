@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-currency="INR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product — ChicOut</title>
+  <meta name="description" content="Product details.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('motion-ready');</script>
+  <link rel="stylesheet" href="assets/base.css">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/motion.css">
+  <link rel="stylesheet" href="assets/product-grid.css">
+  <link rel="stylesheet" href="assets/quick-view.css">
+  <link rel="stylesheet" href="assets/pages.css">
+</head>
+<body class="sx">
+  <div data-site-header></div>
+  <script src="assets/brand.js"></script>
+  <script src="assets/site.js"></script>
+
+  <main id="main" data-page="product">
+
+    <div class="container pdp" data-pdp>
+      <ol class="crumbs"><li><a href="index.html">Home</a></li><li><a href="shop.html">Shop</a></li><li data-pdp-crumb-cat></li><li aria-current="page" data-pdp-crumb-name></li></ol>
+      <div class="pdp-grid">
+        <div class="pdp-gallery" data-reveal>
+          <div class="pdp-thumbs" data-pdp-thumbs></div>
+          <div>
+            <div class="pdp-main" data-pdp-main data-cursor="Zoom">
+              <img data-pdp-img alt="">
+              <span class="pdp-hint">Click to zoom</span>
+            </div>
+            <div class="pdp-dots" data-pdp-dots></div>
+          </div>
+        </div>
+        <div class="pdp-info" data-reveal style="--rd:.1s">
+          <p class="pdp-cat" data-pdp-cat></p>
+          <h1 class="pdp-name" data-pdp-name></h1>
+          <p class="pdp-price" data-pdp-price></p>
+          <p class="pdp-desc" data-pdp-desc></p>
+          <div class="pdp-opt" data-pdp-opt>
+            <div class="pdp-opt-head"><span data-pdp-opt-label>Select size</span><button type="button" data-sg-open>Size guide</button></div>
+            <div class="pdp-sizes" data-pdp-sizes role="group" aria-label="Size"></div>
+          </div>
+          <div class="pdp-buy">
+            <div class="qty" aria-label="Quantity"><button type="button" data-qty-step="-1" aria-label="Decrease quantity">−</button><output data-qty-out>1</output><button type="button" data-qty-step="1" aria-label="Increase quantity">+</button></div>
+            <button type="button" class="btn btn-dark pdp-add" data-pdp-add data-magnetic="0.12"><span>Add to bag</span></button>
+          </div>
+          <p class="pdp-msg" data-pdp-msg aria-live="polite"></p>
+          <ul class="pdp-perks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h13l5 5v5h-4"/><path d="M3 7v10h3"/><circle cx="8" cy="18" r="2"/><circle cx="18" cy="18" r="2"/><path d="M10 18h6"/></svg>Shipping options shown at checkout</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure checkout on Shopify</li>
+          </ul>
+          <div class="acc">
+            <div class="acc-item is-open"><button type="button" class="acc-btn" aria-expanded="true">Details &amp; care<span class="acc-icon" aria-hidden="true"></span></button><div class="acc-panel"><div data-pdp-details></div></div></div>
+            <div class="acc-item"><button type="button" class="acc-btn" aria-expanded="false">Shipping &amp; returns<span class="acc-icon" aria-hidden="true"></span></button><div class="acc-panel"><div><p>Delivery options and costs are shown at checkout. See the store’s <a href="https://chicoutstore.in/policies/refund-policy">refund policy</a> for returns.</p></div></div></div>
+          </div>
+          <p style="margin-top:22px"><a class="link-arrow" data-pdp-store href="#">View on the Shopify store <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+        </div>
+      </div>
+    </div>
+
+    <section class="section container">
+      <div class="section-head">
+        <h2 class="h2" data-split>You may also <em>like</em>.</h2>
+        <a class="link-arrow" href="shop.html" data-reveal>Shop all <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="pc-grid" data-pdp-related></div>
+    </section>
+
+    <div class="pdp-sticky" data-pdp-sticky>
+      <img alt=""><div><strong></strong><span></span></div>
+      <button type="button" class="btn btn-dark"><span>Add to bag</span></button>
+    </div>
+
+    <div class="sg" data-size-guide aria-hidden="true" role="dialog" aria-modal="true" aria-label="Size guide">
+      <div class="sg-scrim" data-sg-close></div>
+      <div class="sg-card">
+        <button type="button" class="icon-btn" data-sg-close aria-label="Close size guide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+        <h2>Size guide</h2>
+        <div data-sg-body></div>
+      </div>
+    </div>
+
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="assets/site-cart.js"></script>
+  <script src="assets/motion.js"></script>
+  <script src="assets/quick-view.js"></script>
+  <script src="assets/data/catalog.js"></script>
+  <script src="assets/product-card.js"></script>
+  <script src="assets/sections.js"></script>
+  <script src="assets/pages.js"></script>
+</body>
+</html>

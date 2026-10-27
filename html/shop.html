@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-currency="INR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop all — ChicOut</title>
+  <meta name="description" content="Soft, comfy outfits and first shoes for babies, toddlers and little kids.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('motion-ready');</script>
+  <link rel="stylesheet" href="assets/base.css">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/motion.css">
+  <link rel="stylesheet" href="assets/product-grid.css">
+  <link rel="stylesheet" href="assets/quick-view.css">
+  <link rel="stylesheet" href="assets/pages.css">
+</head>
+<body class="sx">
+  <div data-site-header></div>
+  <script src="assets/brand.js"></script>
+  <script src="assets/site.js"></script>
+
+  <main id="main" data-page="shop">
+
+    <section class="page-hero">
+      <div class="container">
+        <ol class="crumbs" data-reveal><li><a href="index.html">Home</a></li><li aria-current="page">Shop</li></ol>
+        <h1 class="h1" data-shop-title data-reveal>Shop <em>all</em></h1>
+        <p class="lead" data-shop-lead data-reveal style="--rd:.1s">Soft, comfy outfits and first shoes for babies, toddlers and little kids.</p>
+      </div>
+    </section>
+
+    <div class="shop-bar" data-shop-bar>
+      <div class="container shop-bar-in">
+        <div class="tabs" role="group" aria-label="Category" data-shop-tabs></div>
+        <div class="shop-tools">
+          <span class="shop-count" data-shop-count></span>
+          <label class="visually-hidden" for="shop-sort">Sort by</label>
+          <div class="select-mini">
+            <select id="shop-sort" data-shop-sort>
+              <option value="featured">Featured</option>
+              <option value="new">Newest</option>
+              <option value="price-asc">Price: low to high</option>
+              <option value="price-desc">Price: high to low</option>
+              <option value="name">Name A–Z</option>
+            </select>
+          </div>
+          <div class="view-toggle" role="group" aria-label="Grid size">
+            <button type="button" data-cols="4" aria-pressed="true" aria-label="4 columns"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="4" width="4" height="16" rx="1"/><rect x="7.3" y="4" width="4" height="16" rx="1"/><rect x="12.6" y="4" width="4" height="16" rx="1"/><rect x="18" y="4" width="4" height="16" rx="1"/></svg></button>
+            <button type="button" data-cols="3" aria-pressed="false" aria-label="3 columns"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="4" width="5.5" height="16" rx="1"/><rect x="9.25" y="4" width="5.5" height="16" rx="1"/><rect x="16.5" y="4" width="5.5" height="16" rx="1"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container shop-main">
+      <p class="shop-query" data-shop-query hidden><span></span><button type="button">Clear search</button></p>
+      <div class="pc-grid" data-shop-grid></div>
+      <div class="shop-empty" data-shop-empty hidden>
+        <h2>Nothing here yet</h2>
+        <p>No products match. Try another category or clear the search.</p>
+        <button type="button" class="btn btn-dark" data-shop-reset>Show everything</button>
+      </div>
+    </section>
+
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="assets/site-cart.js"></script>
+  <script src="assets/motion.js"></script>
+  <script src="assets/quick-view.js"></script>
+  <script src="assets/data/catalog.js"></script>
+  <script src="assets/product-card.js"></script>
+  <script src="assets/sections.js"></script>
+  <script src="assets/pages.js"></script>
+</body>
+</html>

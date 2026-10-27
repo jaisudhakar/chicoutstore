@@ -1,0 +1,79 @@
+{%- comment -%} Feature scroll — a sticky image swaps as each point scrolls through the middle of the screen. {%- endcomment -%}
+{% render 'sx-assets' %}
+{{ 'sections.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'sections.js' | asset_url }}" defer></script>
+
+{%- assign s = section.settings -%}
+<div class="sx">
+  <section class="section" data-feat style="--feat-bg: {{ s.media_bg }};">
+    <div class="container feat-in">
+      <div class="feat-media" aria-hidden="true">
+        <div class="feat-frame">
+          <div class="feat-progress">{%- for block in section.blocks -%}<i></i>{%- endfor -%}</div>
+          {%- for block in section.blocks -%}
+            <figure class="feat-img">
+              {%- if block.settings.image != blank -%}
+                <img src="{{ block.settings.image | image_url: width: 1200 }}" alt="" width="{{ block.settings.image.width }}" height="{{ block.settings.image.height }}" loading="lazy" decoding="async">
+              {%- else -%}
+                {{ 'product-1' | placeholder_svg_tag }}
+              {%- endif -%}
+            </figure>
+          {%- endfor -%}
+          <span class="feat-big" data-feat-num>01</span>
+        </div>
+      </div>
+      <div class="feat-list">
+        <header>
+          {%- if s.eyebrow != blank -%}<p class="eyebrow" data-reveal>{{ s.eyebrow | escape }}</p>{%- endif -%}
+          <h2 class="h2" data-split style="margin-top:18px">{% render 'sx-accent', text: s.heading %}</h2>
+        </header>
+        {%- for block in section.blocks -%}
+          <article class="feat-item" {{ block.shopify_attributes }}>
+            <span class="feat-idx">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+            <h3>{{ block.settings.title | escape }}</h3>
+            <p>{{ block.settings.text | escape }}</p>
+            {%- if block.settings.image != blank -%}
+              <figure class="feat-item-img"><img src="{{ block.settings.image | image_url: width: 800 }}" alt="" width="{{ block.settings.image.width }}" height="{{ block.settings.image.height }}" loading="lazy" decoding="async"></figure>
+            {%- endif -%}
+          </article>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "ChicOut feature scroll",
+  "tag": "section",
+  "class": "section-sx-feature",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Why parents love us" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Comfy for them, *easy* for you." },
+    { "type": "color", "id": "media_bg", "label": "Image panel colour", "default": "#ecebe7" }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Title", "default": "Soft on little skin" },
+        { "type": "textarea", "id": "text", "label": "Text", "default": "Breathable, pre-washed cotton that stays gentle wash after wash." },
+        { "type": "image_picker", "id": "image", "label": "Image" }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "ChicOut feature scroll",
+      "blocks": [
+        { "type": "feature", "settings": { "title": "Soft on little skin", "text": "Breathable, pre-washed cotton that stays gentle wash after wash — no scratchy labels or rough seams." } },
+        { "type": "feature", "settings": { "title": "Easy to dress", "text": "Snap openings, stretchy waists and front ties make changes quick, even for wriggly babies." } },
+        { "type": "feature", "settings": { "title": "Made to last", "text": "Reinforced seams, ribbed cuffs and a sturdy hem built for everyday wear, not one season." } },
+        { "type": "feature", "settings": { "title": "Clean details", "text": "Tonal branding, minimal hardware and nothing extra. Just the pieces you reach for first." } }
+      ]
+    }
+  ]
+}
+{% endschema %}

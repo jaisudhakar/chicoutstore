@@ -1,0 +1,50 @@
+{%- comment -%} Membership / newsletter — Shopify customer form (adds the email as a subscribed customer). {%- endcomment -%}
+{% render 'sx-assets' %}
+{{ 'sections.css' | asset_url | stylesheet_tag }}
+
+{%- assign s = section.settings -%}
+<div class="sx">
+  <section class="join" id="join-{{ section.id }}" style="--join-bg: {{ s.bg }};">
+    {%- if s.bg_word != blank -%}
+      <div class="join-bgword" aria-hidden="true">{% for i in (1..4) %}{{ s.bg_word | escape }} · {% endfor %}</div>
+    {%- endif -%}
+    <div class="container">
+      <div class="join-card" data-reveal="scale">
+        {%- if s.eyebrow != blank -%}<p class="eyebrow no-line">{{ s.eyebrow | escape }}</p>{%- endif -%}
+        <h2 class="h2" data-split>{% render 'sx-accent', text: s.heading %}</h2>
+        {%- if s.text != blank -%}<p>{{ s.text | escape }}</p>{%- endif -%}
+        {%- form 'customer', id: 'sx-newsletter-form', class: 'join-form' -%}
+          <input type="hidden" name="contact[tags]" value="newsletter">
+          <label class="visually-hidden" for="sx-news-{{ section.id }}">Email address</label>
+          <input id="sx-news-{{ section.id }}" type="email" name="contact[email]" placeholder="Email address" autocomplete="email" required>
+          <button class="btn btn-dark" type="submit">{{ s.btn_label | escape }}</button>
+          {%- if form.posted_successfully? -%}
+            <p class="form-msg" style="color:#b6f09c">{{ s.success | escape }}</p>
+          {%- elsif form.errors -%}
+            <p class="form-msg" style="color:#ff8a8a">{{ form.errors.translated_fields.email | capitalize }} {{ form.errors.messages.email }}</p>
+          {%- endif -%}
+        {%- endform -%}
+        {%- if s.note != blank -%}<small>{{ s.note | escape }}</small>{%- endif -%}
+      </div>
+    </div>
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "ChicOut newsletter",
+  "tag": "section",
+  "class": "section-sx-newsletter",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "ChicOut family" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Join the *family*." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Be first to hear about new arrivals, festive edits and restocks of your favourites." },
+    { "type": "text", "id": "btn_label", "label": "Button", "default": "Sign up" },
+    { "type": "text", "id": "success", "label": "Success message", "default": "Thanks — you’re on the list." },
+    { "type": "text", "id": "note", "label": "Small print", "default": "We’ll only email you about the store. Unsubscribe any time." },
+    { "type": "text", "id": "bg_word", "label": "Moving background words", "default": "Join the family" },
+    { "type": "color", "id": "bg", "label": "Background", "default": "#111111" }
+  ],
+  "presets": [ { "name": "ChicOut newsletter" } ]
+}
+{% endschema %}

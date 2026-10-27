@@ -1,0 +1,73 @@
+{%- comment -%} Marquee — big scrolling words, solid row plus an outlined row going the other way. {%- endcomment -%}
+{% render 'sx-assets' %}
+{{ 'sections.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign s = section.settings
+  assign star = '<svg class="mq-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg>'
+  assign reps = 1
+  if section.blocks.size < 6
+    assign reps = 2
+  endif
+  if section.blocks.size < 3
+    assign reps = 4
+  endif
+-%}
+<div class="sx">
+  <section class="mq" aria-label="Highlights" style="--mq-bg: {{ s.bg }}; --mq-txt: {{ s.txt }}; --mq-speed: {{ s.speed }}s;">
+    {%- if section.blocks.size > 0 -%}
+      <div class="mq-row">
+        {%- for pass in (1..2) -%}
+          <div class="mq-set"{% if pass == 2 %} aria-hidden="true"{% endif %}>
+            {%- for r in (1..reps) -%}
+              {%- for block in section.blocks -%}
+                <span class="mq-item" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}{{ star }}</span>
+              {%- endfor -%}
+            {%- endfor -%}
+          </div>
+        {%- endfor -%}
+      </div>
+      {%- if s.outline_row -%}
+        <div class="mq-row rev outline" aria-hidden="true">
+          {%- for pass in (1..2) -%}
+            <div class="mq-set">
+              {%- for r in (1..reps) -%}
+                {%- for block in section.blocks reversed -%}
+                  <span class="mq-item">{{ block.settings.text | escape }}{{ star }}</span>
+                {%- endfor -%}
+              {%- endfor -%}
+            </div>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    {%- endif -%}
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "ChicOut marquee",
+  "tag": "section",
+  "class": "section-sx-marquee",
+  "settings": [
+    { "type": "range", "id": "speed", "label": "Seconds per loop", "min": 10, "max": 90, "step": 2, "unit": "s", "default": 32 },
+    { "type": "checkbox", "id": "outline_row", "label": "Add outlined row", "default": true },
+    { "type": "color", "id": "bg", "label": "Background", "default": "#111111" },
+    { "type": "color", "id": "txt", "label": "Text", "default": "#ffffff" }
+  ],
+  "blocks": [ { "type": "text", "name": "Word", "settings": [ { "type": "text", "id": "text", "label": "Text", "default": "New arrivals" } ] } ],
+  "max_blocks": 12,
+  "presets": [
+    {
+      "name": "ChicOut marquee",
+      "blocks": [
+        { "type": "text", "settings": { "text": "New arrivals" } },
+        { "type": "text", "settings": { "text": "Soft cotton" } },
+        { "type": "text", "settings": { "text": "Baby & kids" } },
+        { "type": "text", "settings": { "text": "Tiny Steps" } },
+        { "type": "text", "settings": { "text": "Made for play" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

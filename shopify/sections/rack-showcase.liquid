@@ -1,0 +1,288 @@
+{%- comment -%}
+  Rack Showcase — garments hang side-on from a rod, drop in, swing, turn to the front on hover,
+  and open a focus view with quick add. Markup matches reference/trial.html.
+  Each block is one hanger: pick a product, and optionally side / front / back images
+  (otherwise the product's 1st, 2nd and 3rd media are used).
+{%- endcomment -%}
+{{ 'rack-showcase.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'site-cart.js' | asset_url }}" defer></script>
+<script src="{{ 'rack-showcase.js' | asset_url }}" defer></script>
+
+{%- liquid
+  assign s = section.settings
+  assign has_qa = s.quick_add
+-%}
+
+<section
+  id="sagar-{{ section.id }}"
+  class="sagar-sec{% if s.drop %} sagar-pre{% endif %}"
+  data-sagar-section
+  data-hover-speed="{{ s.hover_speed }}"
+  data-hover-gap="{{ s.hover_gap }}"
+  data-turn-speed="{{ s.turn_speed }}"
+  data-slide-interval="{{ s.slide_interval | times: 1000 }}"
+  data-swing="{{ s.swing }}"
+  data-drop="{{ s.drop }}"
+  data-lift="{{ s.lift }}"
+  data-qa-redirect="{{ s.qa_redirect }}"
+  style="
+    --sagar-bg: {{ s.bg }};
+    --sagar-txt: {{ s.txt }};
+    --sagar-acc: {{ s.acc }};
+    --sagar-focus-bg: {{ s.focus_bg | color_modify: 'alpha', 0.96 }};
+    --sagar-hspd: {{ s.hover_speed }}ms;
+    --sagar-hgap: {{ s.hover_gap }}px;
+    --sagar-gap: {{ s.gap }}px;
+    --sagar-h-desk: {{ s.h_desk }}px;
+    --sagar-h-mob: {{ s.h_mob }}px;
+    --sagar-h-slide: {{ s.h_slide }}px;
+    --sagar-h-focus: 966px;
+    --sagar-h-focus-m: 672px;
+    --sagar-pt: {{ s.pt }}px;
+    --sagar-pb: {{ s.pb }}px;
+  "
+>
+  <noscript><style>.sagar-sec.sagar-pre .sagar-item { opacity: 1 !important; }</style></noscript>
+
+  <div class="sagar-wrap">
+    {%- if s.eyebrow != blank or s.eyebrow_dim != blank -%}
+      <div class="sagar-railcap sagar-font-heading">
+        <span>{{ s.eyebrow }}</span>
+        {%- if s.eyebrow != blank and s.eyebrow_dim != blank -%}<span class="sagar-railcap-sep" aria-hidden="true"></span>{%- endif -%}
+        <span class="sagar-railcap-dim">{{ s.eyebrow_dim }}</span>
+      </div>
+    {%- endif -%}
+
+    <div class="sagar-stage">
+      {%- if s.rod_image != blank -%}
+        <div class="sagar-rod" aria-hidden="true">
+          <img class="sagar-rod-photo" src="{{ s.rod_image | image_url: width: 2400 }}" width="{{ s.rod_image.width }}" height="{{ s.rod_image.height }}" alt="" loading="eager" decoding="async">
+        </div>
+      {%- else -%}
+        <div class="sagar-rod sagar-rod-css" aria-hidden="true"></div>
+      {%- endif -%}
+
+      <div class="sagar-rack" data-sagar-rack>
+        {%- for block in section.blocks -%}
+          {%- liquid
+            assign p = block.settings.product
+            if p == blank
+              continue
+            endif
+            assign side = block.settings.side_image | default: p.media[0].preview_image
+            assign front = block.settings.front_image | default: p.media[1].preview_image
+            assign back = block.settings.back_image | default: p.media[2].preview_image
+            assign btn_label = block.settings.btn_label | default: s.btn_label
+          -%}
+          <div
+            class="sagar-item"
+            data-sagar-item
+            role="button"
+            tabindex="0"
+            aria-label="{{ p.title | escape }}"
+            data-block-id="{{ block.id }}"
+            data-name="{{ p.title | escape }}"
+            data-sub="{{ block.settings.subtitle | escape }}"
+            data-price="{{ p.price | money | escape }}"
+            data-btn-label="{{ btn_label | escape }}"
+            data-btn-url="{{ p.url }}"
+            data-btn-target="_self"
+            {{ block.shopify_attributes }}
+          >
+            <div class="sagar-garment">
+              {%- if side != blank -%}
+                <div class="sagar-view" data-sagar-pos="0">
+                  <img
+                    src="{{ side | image_url: height: 840 }}"
+                    width="{{ side.width }}"
+                    height="{{ side.height }}"
+                    alt="{{ p.title | escape }} - side"
+                    loading="eager"
+                    {% if forloop.index <= 6 %}fetchpriority="high"{% endif %}
+                    decoding="async"
+                  >
+                </div>
+              {%- endif -%}
+              {%- if front != blank -%}
+                <div class="sagar-view" data-sagar-pos="1">
+                  <img
+                    src="{{ front | image_url: height: 840 }}"
+                    data-hi="{{ front | image_url: height: 1400 }}"
+                    width="{{ front.width }}"
+                    height="{{ front.height }}"
+                    alt="{{ p.title | escape }} - front"
+                    {% if forloop.index <= 6 %}loading="eager"{% else %}loading="lazy"{% endif %}
+                    decoding="async"
+                  >
+                </div>
+              {%- endif -%}
+              {%- if back != blank -%}
+                <div class="sagar-view" data-sagar-pos="-1">
+                  <img
+                    data-hi="{{ back | image_url: height: 1400 }}"
+                    width="{{ back.width }}"
+                    height="{{ back.height }}"
+                    alt="{{ p.title | escape }} - back"
+                    decoding="async"
+                  >
+                </div>
+              {%- endif -%}
+            </div>
+
+            {%- if s.show_tags -%}
+              {%- liquid
+                assign status = ''
+                unless p.available
+                  assign status = s.soldout_text
+                endunless
+                if status == blank and p.compare_at_price > p.price
+                  assign status = s.sale_text
+                endif
+              -%}
+              <div class="sagar-tag{% if status != blank %} sagar-tag-duo{% if p.available == false %} sagar-tag-alert{% endif %}{% else %} sagar-tag-single{% endif %}" aria-hidden="true">
+                <div class="sagar-tag-inner">
+                  <span class="sagar-tag-face sagar-tag-front">{{ p.price | money_without_trailing_zeros }}</span>
+                  {%- if status != blank -%}<span class="sagar-tag-face sagar-tag-back">{{ status }}</span>{%- endif -%}
+                </div>
+              </div>
+            {%- endif -%}
+
+            {%- if has_qa -%}
+              <script type="application/json" data-sagar-json>
+                { {% render 'site-product-json', product: p %} }
+              </script>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+
+    <div class="sagar-dots" data-sagar-dots></div>
+
+    <div class="sagar-caption">
+      <div class="sagar-cap-name sagar-font-body" data-sagar-caption aria-live="polite">{{ s.caption }}</div>
+      {%- if s.cta_label != blank -%}
+        <div
+          class="sagar-cta-w"
+          style="--b-pbg: {{ s.cta_bg }}; --b-ptx: {{ s.txt }}; --b-phbg: {{ s.txt }}; --b-phtx: {{ s.cta_bg }}; --b-scol: {{ s.txt }}; --b-shbg: {{ s.txt }}; --b-shtx: {{ s.cta_bg }}; --b-rad: 30px; --b-mt: 18px; --b-mb: 0px; --b-mtm: 14px; --b-mbm: 0px;"
+        >
+          <a class="sagar-cta sagar-cta-primary" href="{{ s.cta_link | default: routes.all_products_collection_url }}"><span>{{ s.cta_label }}</span></a>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+
+  <div
+    class="sagar-focus"
+    data-sagar-focus
+    role="dialog"
+    aria-modal="true"
+    aria-hidden="true"
+    data-t-add="Add to cart"
+    data-t-soldout="{{ s.soldout_text | default: 'Sold out' | escape }}"
+    data-t-added="Added to cart"
+    data-t-viewcart="View cart"
+    data-t-unavailable="Unavailable"
+    data-t-error="Could not add to cart. Please try again."
+  >
+    <div class="sagar-focus-bg" data-sagar-fbg></div>
+    <button type="button" class="sagar-focus-close"><span>Close</span><span class="sagar-x" aria-hidden="true"></span></button>
+    <div class="sagar-focus-inner" data-sagar-finner>
+      <div class="sagar-focus-stagewrap">
+        <div class="sagar-focus-stage" data-sagar-fstage></div>
+      </div>
+      <div class="sagar-focus-meta">
+        <div class="sagar-focus-idx" data-sagar-fidx></div>
+        <div class="sagar-focus-name sagar-font-heading" data-sagar-fname></div>
+        <div class="sagar-focus-sub" data-sagar-fsub></div>
+        <div class="sagar-focus-price" data-sagar-fprice></div>
+        <div class="sagar-focus-tabs" role="group" aria-label="View">
+          <button type="button" class="sagar-tab sagar-tab-on" data-sagar-tab="front" aria-pressed="true">Front</button>
+          <button type="button" class="sagar-tab" data-sagar-tab="back" aria-pressed="false">Back</button>
+        </div>
+        {%- if has_qa -%}
+          <div class="sagar-qa" data-sagar-qa hidden>
+            <div data-sagar-qa-opts></div>
+            <button type="button" class="sagar-qa-btn" data-sagar-qa-btn>
+              <span class="sagar-qa-spin" aria-hidden="true"></span><span data-sagar-qa-lbl>Add to cart</span>
+            </button>
+            <div class="sagar-qa-msg" data-sagar-qa-msg aria-live="polite"></div>
+          </div>
+        {%- endif -%}
+        <div class="sagar-focus-action" data-sagar-factionbar>
+          <div class="sagar-focus-action-name" data-sagar-factionname></div>
+          <a class="sagar-focus-action-btn" data-sagar-factionbtn href="#"><span data-sagar-factionlabel></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Rack showcase",
+  "tag": "div",
+  "class": "section-rack-showcase",
+  "settings": [
+    { "type": "header", "content": "Text" },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "NEW ARRIVALS" },
+    { "type": "text", "id": "eyebrow_dim", "label": "Eyebrow (light)", "default": "KIDS & BABY" },
+    { "type": "text", "id": "caption", "label": "Caption under the rail", "default": "Soft cotton. Easy snaps. Made for play." },
+    { "type": "text", "id": "cta_label", "label": "Button label", "default": "Shop new arrivals" },
+    { "type": "url", "id": "cta_link", "label": "Button link" },
+    { "type": "text", "id": "btn_label", "label": "Focus view link label", "default": "View in the shop" },
+    { "type": "header", "content": "Rail" },
+    { "type": "image_picker", "id": "rod_image", "label": "Rod image", "info": "Leave empty to draw a metal rod." },
+    { "type": "range", "id": "h_desk", "label": "Garment height (desktop)", "min": 240, "max": 600, "step": 10, "unit": "px", "default": 420 },
+    { "type": "range", "id": "h_mob", "label": "Garment height (tablet)", "min": 160, "max": 420, "step": 5, "unit": "px", "default": 265 },
+    { "type": "range", "id": "h_slide", "label": "Garment height (phone slider)", "min": 160, "max": 420, "step": 5, "unit": "px", "default": 280 },
+    { "type": "range", "id": "gap", "label": "Gap between hangers", "min": 0, "max": 40, "step": 1, "unit": "px", "default": 10 },
+    { "type": "checkbox", "id": "show_tags", "label": "Show price tags", "default": true },
+    { "type": "text", "id": "sale_text", "label": "Tag back: on sale", "default": "Sale" },
+    { "type": "text", "id": "soldout_text", "label": "Tag back: sold out", "default": "Sold out" },
+    { "type": "header", "content": "Motion" },
+    { "type": "range", "id": "hover_speed", "label": "Turn speed on hover", "min": 300, "max": 1500, "step": 50, "unit": "ms", "default": 850 },
+    { "type": "range", "id": "hover_gap", "label": "Space around a turned garment", "min": 0, "max": 60, "step": 2, "unit": "px", "default": 18 },
+    { "type": "range", "id": "turn_speed", "label": "Focus view turn speed", "min": 300, "max": 1500, "step": 50, "unit": "ms", "default": 700 },
+    { "type": "range", "id": "swing", "label": "Swing", "min": 0, "max": 100, "step": 5, "unit": "%", "default": 85 },
+    { "type": "range", "id": "slide_interval", "label": "Phone slider interval", "min": 2, "max": 8, "step": 1, "unit": "s", "default": 3 },
+    { "type": "checkbox", "id": "drop", "label": "Drop garments onto the rail on scroll", "default": true },
+    { "type": "checkbox", "id": "lift", "label": "Lift garment off the rail when opened", "default": true },
+    { "type": "header", "content": "Quick add" },
+    { "type": "checkbox", "id": "quick_add", "label": "Enable quick add in focus view", "default": true },
+    { "type": "checkbox", "id": "qa_redirect", "label": "Go to cart after adding", "default": false },
+    { "type": "header", "content": "Colours and spacing" },
+    { "type": "color", "id": "bg", "label": "Background", "default": "#ffffff" },
+    { "type": "color", "id": "txt", "label": "Text", "default": "#2b2b28" },
+    { "type": "color", "id": "acc", "label": "Accent", "default": "#000000" },
+    { "type": "color", "id": "focus_bg", "label": "Focus view background", "default": "#ffffff" },
+    { "type": "color", "id": "cta_bg", "label": "Button background", "default": "#f4f1ec" },
+    { "type": "range", "id": "pt", "label": "Top padding", "min": 0, "max": 200, "step": 4, "unit": "px", "default": 76 },
+    { "type": "range", "id": "pb", "label": "Bottom padding", "min": 0, "max": 200, "step": 4, "unit": "px", "default": 120 }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Garment",
+      "settings": [
+        { "type": "product", "id": "product", "label": "Product" },
+        { "type": "text", "id": "subtitle", "label": "Subtitle (focus view)" },
+        { "type": "image_picker", "id": "side_image", "label": "Side image", "info": "Transparent PNG/WebP, hanger at the top. Default: product image 1." },
+        { "type": "image_picker", "id": "front_image", "label": "Front image", "info": "Default: product image 2." },
+        { "type": "image_picker", "id": "back_image", "label": "Back image", "info": "Default: product image 3." },
+        { "type": "text", "id": "btn_label", "label": "Link label override" }
+      ]
+    }
+  ],
+  "max_blocks": 16,
+  "presets": [
+    {
+      "name": "Rack showcase",
+      "blocks": [
+        { "type": "product" }, { "type": "product" }, { "type": "product" },
+        { "type": "product" }, { "type": "product" }, { "type": "product" }
+      ]
+    }
+  ]
+}
+{% endschema %}

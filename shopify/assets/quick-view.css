@@ -1,0 +1,137 @@
+/* Quick view pop-up (shared) */
+.qv {
+  --qv-txt: var(--ink);
+  --qv-muted: var(--muted);
+  --qv-line: #e5e5e5;
+  position: fixed; inset: 0; z-index: 99990;
+  display: none; align-items: center; justify-content: center;
+  padding: 70px 40px 40px;
+  color: var(--qv-txt);
+  font-family: var(--font-body-family, inherit);
+  overflow-y: auto; overscroll-behavior: contain;
+}
+.qv.qv-open { display: flex; }
+.qv-bg {
+  position: fixed; inset: 0;
+  background: rgba(255, 255, 255, .97);
+  -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px);
+  opacity: 0; transition: opacity .32s ease;
+}
+.qv.qv-in .qv-bg { opacity: 1; }
+
+.qv-close {
+  position: fixed; top: 22px; right: 26px; z-index: 3;
+  display: inline-flex; align-items: center; gap: 10px;
+  background: none; border: 0; cursor: pointer;
+  font: inherit; font-size: 13px; letter-spacing: .3px; color: var(--qv-txt);
+  opacity: 0; transition: opacity .3s ease .15s;
+}
+.qv.qv-in .qv-close { opacity: 1; }
+.qv-x { position: relative; width: 16px; height: 16px; }
+.qv-x::before, .qv-x::after {
+  content: ''; position: absolute; left: 50%; top: 50%; width: 17px; height: 2px;
+  background: currentColor; border-radius: 2px;
+}
+.qv-x::before { transform: translate(-50%, -50%) rotate(45deg); }
+.qv-x::after { transform: translate(-50%, -50%) rotate(-45deg); }
+
+.qv-inner {
+  position: relative; z-index: 2;
+  display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  align-items: center; gap: clamp(32px, 6vw, 120px);
+  width: 100%; max-width: 1200px; margin: auto;
+  opacity: 0; transform: translateY(24px) scale(.98);
+  transition: opacity .4s ease, transform .5s cubic-bezier(.22, 1, .36, 1), filter .26s ease;
+}
+.qv.qv-in .qv-inner { opacity: 1; transform: none; }
+.qv-inner.qv-swap { opacity: 0; filter: blur(10px); transition-duration: .26s; }
+
+.qv-stage {
+  position: relative; aspect-ratio: 1 / 1; max-height: 62vh; margin: 0 auto; width: 100%;
+  display: flex; align-items: center; justify-content: center;
+  touch-action: pan-y;
+}
+.qv-img {
+  max-width: 100%; max-height: 100%; object-fit: contain;
+  filter: drop-shadow(0 24px 24px rgba(0, 0, 0, .14));
+  -webkit-user-drag: none; user-select: none;
+}
+.qv-under { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 20px; }
+.qv-thumbs { display: flex; gap: 10px; overflow-x: auto; scrollbar-width: none; }
+.qv-thumb {
+  flex: 0 0 auto; width: 50px; height: 42px; padding: 3px;
+  background: #fff; border: 1px solid var(--qv-line); border-radius: 6px; cursor: pointer;
+  transition: border-color .2s ease;
+}
+.qv-thumb img { width: 100%; height: 100%; object-fit: contain; }
+.qv-thumb:hover, .qv-thumb.qv-thumb-on { border-color: var(--qv-txt); }
+.qv-pager { display: flex; align-items: center; gap: 16px; margin-left: auto; }
+.qv-pager[hidden] { display: none; }
+.qv-count { font-size: 11px; letter-spacing: 2px; color: var(--qv-muted); font-variant-numeric: tabular-nums; }
+.qv-arrow {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: #fff; border: 1px solid var(--qv-line); color: var(--qv-txt);
+  font-size: 16px; cursor: pointer;
+  transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+.qv-arrow:hover { background: var(--qv-txt); border-color: var(--qv-txt); color: #fff; }
+
+.qv-name {
+  margin: 0; font-family: var(--font-heading-family, inherit);
+  font-size: clamp(30px, 3.4vw, 46px); font-family: var(--font-heading-family); font-weight: 600; line-height: 1; letter-spacing: -.02em;
+  text-transform: uppercase;
+}
+.qv-price { margin: 12px 0 0; font-size: 20px; font-weight: 500; }
+.qv-opt { margin-top: 24px; }
+.qv-optname { font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase; color: var(--qv-muted); margin-bottom: 10px; }
+.qv-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; max-width: 420px; }
+.qv-size {
+  height: 42px; border: 1px solid var(--qv-line); border-radius: 4px;
+  background: #fafafa; color: var(--qv-txt);
+  font: inherit; font-size: 14px; cursor: pointer;
+  transition: border-color .18s ease, background .18s ease, color .18s ease, transform .12s ease;
+}
+.qv-size:hover { border-color: var(--qv-txt); }
+.qv-size:active { transform: scale(.96); }
+.qv-size[aria-pressed="true"] { background: var(--qv-txt); border-color: var(--qv-txt); color: #fff; }
+.qv-size.qv-na { color: #b5b5b5; text-decoration: line-through; cursor: not-allowed; }
+.qv-size.qv-na:hover { border-color: var(--qv-line); }
+
+.qv-add {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  width: 100%; max-width: 420px; height: 50px; margin-top: 20px;
+  border: 0; border-radius: 999px; background: var(--qv-txt); color: #fff;
+  font: inherit; font-size: 15px; font-weight: 500; cursor: pointer;
+  transition: background .25s ease, opacity .2s ease, transform .15s ease;
+}
+.qv-add:hover:not(:disabled) { transform: translateY(-1px); }
+.qv-add:disabled { background: #9a9a98; cursor: not-allowed; }
+.qv-add.qv-done { background: #1f7a3a; }
+.qv-spin {
+  display: none; width: 15px; height: 15px; border-radius: 50%;
+  border: 2px solid currentColor; border-right-color: transparent;
+  animation: qvSpin .7s linear infinite;
+}
+.qv-add.qv-busy .qv-spin { display: inline-block; }
+@keyframes qvSpin { to { transform: rotate(360deg); } }
+.qv-msg { min-height: 18px; margin: 10px 0 0; font-size: 13px; }
+.qv-msg a { color: inherit; font-weight: 600; }
+.qv-msg.qv-err { color: #b3261e; }
+.qv-link {
+  display: inline-flex; gap: 6px; margin-top: 16px;
+  font-size: 14px; font-weight: 500; color: var(--qv-txt); text-decoration: none;
+  border-bottom: 1px solid currentColor; padding-bottom: 2px;
+}
+.qv-link[hidden] { display: none; }
+
+@media (max-width: 849.98px) {
+  .qv { padding: 64px 18px 28px; align-items: flex-start; }
+  .qv-close { top: 16px; right: 16px; }
+  .qv-inner { grid-template-columns: 1fr; gap: 22px; }
+  .qv-stage { max-height: 42vh; }
+  .qv-grid { max-width: none; }
+  .qv-add { max-width: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .qv-bg, .qv-inner, .qv-close { transition: none; }
+}

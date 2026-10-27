@@ -1,0 +1,9 @@
+{%- comment -%}
+  Prints a heading where *one phrase* between asterisks is set in the italic accent font.
+  Usage: {% render 'sx-accent', text: section.settings.heading %}
+{%- endcomment -%}
+{%- assign parts = text | escape | split: '*' -%}
+{%- for part in parts -%}
+  {%- assign odd = forloop.index | modulo: 2 -%}
+  {%- if odd == 0 -%}<em>{{ part }}</em>{%- else -%}{{ part }}{%- endif -%}
+{%- endfor -%}

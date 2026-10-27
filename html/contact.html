@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-currency="INR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — ChicOut</title>
+  <meta name="description" content="Questions about an order, sizing or returns? Get in touch.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('motion-ready');</script>
+  <link rel="stylesheet" href="assets/base.css">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/motion.css">
+  <link rel="stylesheet" href="assets/product-grid.css">
+  <link rel="stylesheet" href="assets/quick-view.css">
+  <link rel="stylesheet" href="assets/pages.css">
+</head>
+<body class="sx">
+  <div data-site-header></div>
+  <script src="assets/brand.js"></script>
+  <script src="assets/site.js"></script>
+
+  <main id="main" data-page="contact">
+
+    <section class="page-hero">
+      <div class="container">
+        <ol class="crumbs" data-reveal><li><a href="index.html">Home</a></li><li aria-current="page">Contact</li></ol>
+        <h1 class="h1" data-split>Get in <em>touch</em>.</h1>
+        <p class="lead" data-reveal style="--rd:.2s">Questions about an order, sizes, gift sets or returns? Send us a message and we’ll get back to you.</p>
+      </div>
+    </section>
+
+    <section class="container" style="padding-bottom:clamp(80px,9vw,140px)">
+      <div class="contact-grid">
+        <div data-reveal>
+          <form class="contact-form" data-contact-form novalidate>
+            <div class="field"><input id="cf-name" name="name" type="text" placeholder=" " autocomplete="name"><label for="cf-name">Your name</label><span class="field-err"></span></div>
+            <div class="field"><input id="cf-email" name="email" type="email" placeholder=" " autocomplete="email"><label for="cf-email">Email</label><span class="field-err"></span></div>
+            <div class="field field-select full"><select id="cf-topic" name="topic"><option>Order question</option><option>Sizing by age</option><option>Returns &amp; exchanges</option><option>Gift sets</option><option>Something else</option></select><label for="cf-topic">Topic</label><span class="field-err"></span></div>
+            <div class="field full"><input id="cf-order" name="order" type="text" placeholder=" "><label for="cf-order">Order number (optional)</label><span class="field-err"></span></div>
+            <div class="field full"><textarea id="cf-msg" name="message" placeholder=" "></textarea><label for="cf-msg">Message</label><span class="field-err"></span></div>
+            <label class="check full"><input type="checkbox" name="news"> Also send me news about new arrivals</label>
+            <button type="submit" class="btn btn-dark full" data-magnetic="0.15"><span>Send message</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </form>
+          <div class="contact-done" data-contact-done aria-live="polite">
+            <svg viewBox="0 0 72 72" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="36" cy="36" r="33"/><path d="M22 37l10 10 19-21"/></svg>
+            <h2>Thanks, <span data-done-name></span>!</h2>
+            <p>Your message is on its way. We’ll reply by email.</p>
+          </div>
+        </div>
+        <aside class="contact-side" id="visit" data-reveal-stagger>
+          <a class="info-card" href="#" data-reveal><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span><small>Email</small><strong data-brand="email"></strong></span></a>
+          <a class="info-card" href="#" data-reveal><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span><small>Phone</small><strong data-brand="phone"></strong></span></a>
+          <div class="info-card" data-reveal><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg><span><small>Visit the store</small><strong data-brand="address"></strong><small style="margin-top:6px;text-transform:none;letter-spacing:0" data-brand="hours"></small></span></div>
+          <div class="map" data-reveal aria-hidden="true"><span class="map-pulse"></span><span class="map-pin"></span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="faq" style="background:var(--mist)">
+      <div class="container faq-wrap">
+        <div>
+          <p class="eyebrow" data-reveal>FAQ</p>
+          <h2 class="h2" data-split style="margin-top:18px">Good <em>questions</em>.</h2>
+          <p class="lead" data-reveal style="margin-top:18px">Can’t find what you need? Use the form above and we’ll help.</p>
+        </div>
+        <div class="acc" data-reveal-stagger>
+            <div class="acc-item is-open" data-reveal><button type="button" class="acc-btn" aria-expanded="true">How do I choose a size?<span class="acc-icon" aria-hidden="true"></span></button><div class="acc-panel"><div><p>Clothes are sized by age (0–3 months to 4–5 years) and shoes by EU size. Children grow at different speeds, so if your little one is between sizes, pick the bigger one. Each product page has a size guide.</p></div></div></div>
+            <div class="acc-item" data-reveal><button type="button" class="acc-btn" aria-expanded="false">When will my order ship?<span class="acc-icon" aria-hidden="true"></span></button><div class="acc-panel"><div><p>Orders are prepared as quickly as possible. Delivery options and estimated times are shown at checkout.</p></div></div></div>
+            <div class="acc-item" data-reveal><button type="button" class="acc-btn" aria-expanded="false">Can I return or exchange?<span class="acc-icon" aria-hidden="true"></span></button><div class="acc-panel"><div><p>Yes — see the store’s refund policy for the return window and conditions, then contact us to start a return.</p></div></div></div>
+            <div class="acc-item" data-reveal><button type="button" class="acc-btn" aria-expanded="false">How should I wash baby clothes?<span class="acc-icon" aria-hidden="true"></span></button><div class="acc-panel"><div><p>Wash cold, inside out, with a mild detergent and similar colours. Dry in the shade to keep prints bright. Check each product’s care details.</p></div></div></div>
+            <div class="acc-item" data-reveal><button type="button" class="acc-btn" aria-expanded="false">Do you restock sold-out items?<span class="acc-icon" aria-hidden="true"></span></button><div class="acc-panel"><div><p>Popular pieces often come back. Join the ChicOut family to hear about restocks first.</p></div></div></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="assets/site-cart.js"></script>
+  <script src="assets/motion.js"></script>
+  <script src="assets/quick-view.js"></script>
+  <script src="assets/data/catalog.js"></script>
+  <script src="assets/product-card.js"></script>
+  <script src="assets/sections.js"></script>
+  <script src="assets/pages.js"></script>
+</body>
+</html>

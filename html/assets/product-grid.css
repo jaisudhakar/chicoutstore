@@ -1,0 +1,69 @@
+/* Product cards + grids (home "Trending", shop, related products) */
+.pc-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(28px, 3vw, 44px) clamp(12px, 1.6vw, 24px); }
+.pc-grid.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 1023.98px) { .pc-grid, .pc-grid.cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.pc { position: relative; }
+.pc-media {
+  position: relative; display: grid; place-items: center; overflow: hidden;
+  aspect-ratio: 4 / 5; border-radius: var(--radius, 16px);
+  background: var(--tone, #f1f0ed);
+}
+.pc-media::after {
+  /* soft light that follows the hover */
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(60% 50% at 50% 40%, rgba(255, 255, 255, .55), rgba(255, 255, 255, 0));
+  opacity: 0; transition: opacity .6s ease;
+}
+.pc:hover .pc-media::after { opacity: 1; }
+.pc-img {
+  position: absolute; inset: 8% 10%; width: 80%; height: 84%; object-fit: contain;
+  transition: opacity .6s ease, transform 1s cubic-bezier(.22, 1, .36, 1);
+  filter: drop-shadow(0 18px 18px rgba(0, 0, 0, .12));
+}
+.pc-img-2 { opacity: 0; transform: scale(1.04); }
+.pc:hover .pc-img { transform: scale(1.05); }
+.pc:hover .pc-img-2 { opacity: 1; transform: scale(1.05); }
+.pc:hover .pc-img:not(.pc-img-2):has(+ .pc-img-2) { opacity: 0; }
+.pc-footwear .pc-img { inset: 20% 8%; width: 84%; height: 60%; }
+.pc-footwear:hover .pc-img { transform: translateY(-6%) rotate(-8deg) scale(1.08); }
+.pc-badge {
+  position: absolute; left: 14px; top: 14px; z-index: 2;
+  padding: 6px 12px; border-radius: 999px; background: #fff;
+  font-size: 12px; font-weight: 600; letter-spacing: .02em;
+}
+.pc-add {
+  position: absolute; right: 14px; top: 14px; z-index: 3;
+  display: inline-flex; align-items: center; gap: 0; height: 42px; padding: 0 11px;
+  border: 0; border-radius: 999px; background: #fff; color: var(--ink); cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .1);
+  transition: gap .45s cubic-bezier(.22, 1, .36, 1), padding .45s cubic-bezier(.22, 1, .36, 1), background .3s ease, color .3s ease;
+}
+.pc-add svg { width: 20px; height: 20px; flex: 0 0 auto; transition: transform .45s cubic-bezier(.22, 1, .36, 1); }
+.pc-add span { max-width: 0; overflow: hidden; white-space: nowrap; font-size: 13px; font-weight: 600; transition: max-width .45s cubic-bezier(.22, 1, .36, 1); }
+.pc-add:hover, .pc-add:focus-visible { gap: 8px; padding: 0 16px 0 12px; background: var(--ink); color: #fff; }
+.pc-add:hover span, .pc-add:focus-visible span { max-width: 90px; }
+.pc-add:hover svg { transform: rotate(90deg); }
+.pc-info { display: flex; justify-content: space-between; gap: 12px; margin-top: 14px; }
+.pc-name { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.3; }
+.pc-name a { text-decoration: none; background: linear-gradient(currentColor, currentColor) left bottom / 0 1px no-repeat; transition: background-size .5s cubic-bezier(.22, 1, .36, 1); }
+.pc:hover .pc-name a { background-size: 100% 1px; }
+.pc-cat { margin: 2px 0 0; font-size: 14px; color: var(--muted, var(--muted)); }
+.pc-price { font-size: 16px; font-weight: 600; white-space: nowrap; }
+@media (hover: none) {
+  .pc-add { gap: 0; padding: 0 11px; }
+}
+
+/* tabs used above grids */
+.tabs { position: relative; display: inline-flex; gap: 4px; padding: 4px; border-radius: 999px; background: var(--mist, #f5f5f5); }
+.tab {
+  position: relative; z-index: 1; height: 40px; padding: 0 18px; border: 0; border-radius: 999px; background: none;
+  font-size: 14px; font-weight: 600; color: var(--muted, var(--muted)); cursor: pointer; transition: color .3s ease;
+  white-space: nowrap;
+}
+.tab[aria-selected="true"], .tab[aria-pressed="true"] { color: var(--ink); }
+.tab-ink {
+  position: absolute; z-index: 0; top: 4px; bottom: 4px; left: 0; border-radius: 999px; background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .08);
+  transition: transform .5s cubic-bezier(.22, 1, .36, 1), width .5s cubic-bezier(.22, 1, .36, 1);
+}

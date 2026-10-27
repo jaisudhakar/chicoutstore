@@ -1,0 +1,91 @@
+/* ============================================================
+   Shared design tokens, type and buttons. Scoped under .sx so they never
+   leak into a Shopify theme: the HTML pages put .sx on <body>, every Shopify
+   section puts it on its own wrapper. Change colours and fonts here per client.
+   ============================================================ */
+.sx {
+  --font-heading-family: "Fredoka", "Nunito", "Helvetica Neue", Arial, sans-serif;
+  --font-body-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-accent: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --ink: #2a2238;
+  --ink-2: #463d55;
+  --paper: #fffaf5;
+  --muted: #7a7086;
+  --line: #f0e3d8;
+  --mist: #fdf3ec;
+  --cream: #fff1e6;
+  --accent: #ff6f61;
+  --accent-2: #8fd1b5;
+  --sun: #f6c445;
+  --radius: 22px;
+  --gutter: clamp(16px, 3vw, 40px);
+  --maxw: 1440px;
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --ease-in-out: cubic-bezier(.65, 0, .35, 1);
+}
+.sx { font-family: var(--font-body-family); color: var(--ink); }
+.sx *, .sx *::before, .sx *::after { box-sizing: border-box; }
+/* minimal reset so theme styles don't bleed into the sections */
+.sx a { color: inherit; }
+.sx img { max-width: 100%; }
+.sx button, .sx input, .sx select, .sx textarea { font: inherit; color: inherit; letter-spacing: inherit; }
+
+/* ---------- layout + type ----------*/
+.sx .container { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.sx .section { padding: clamp(72px, 9vw, 140px) 0; }
+.sx .eyebrow {
+  display: inline-flex; align-items: center; gap: 12px;
+  font-size: 12px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase;
+}
+.sx .eyebrow::before { content: ''; width: 28px; height: 1px; background: currentColor; opacity: .5; }
+.sx .eyebrow.no-line::before { display: none; }
+.sx .display {
+  margin: 0; font-family: var(--font-heading-family);
+  font-size: clamp(44px, 7.2vw, 112px); font-weight: 600; line-height: .95; letter-spacing: -.025em;
+}
+.sx .h1 { margin: 0; font-family: var(--font-heading-family); font-size: clamp(40px, 5.4vw, 80px); font-weight: 600; line-height: .98; letter-spacing: -.02em; }
+.sx .h2 { margin: 0; font-family: var(--font-heading-family); font-size: clamp(32px, 4vw, 56px); font-weight: 600; line-height: 1.02; letter-spacing: -.02em; }
+.sx .h3 { margin: 0; font-family: var(--font-heading-family); font-size: clamp(22px, 2vw, 28px); font-weight: 600; line-height: 1.15; letter-spacing: -.01em; }
+.sx .display em, .sx .h1 em, .sx .h2 em, .sx .h3 em, .sx .accent {
+  font-family: var(--font-accent); font-style: italic; font-weight: 400; letter-spacing: -.01em;
+}
+.sx .lead { font-size: clamp(17px, 1.4vw, 20px); line-height: 1.55; color: var(--ink-2); max-width: 560px; }
+.sx .muted { color: var(--muted); }
+.sx .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: clamp(32px, 4vw, 56px); }
+.sx .section-head p { margin: 14px 0 0; max-width: 460px; color: var(--muted); }
+
+/* ---------- buttons + links ----------*/
+.sx .btn {
+  position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  height: 54px; padding: 0 30px; border-radius: 999px; border: 1px solid transparent;
+  font-size: 15px; font-weight: 600; letter-spacing: .01em; text-decoration: none; cursor: pointer;
+  overflow: hidden; isolation: isolate; white-space: nowrap;
+  transition: color .45s var(--ease-out), border-color .45s var(--ease-out), background .45s var(--ease-out);
+}
+.sx .btn::before {
+  /* fill that rises from the bottom on hover */
+  content: ''; position: absolute; inset: 0; z-index: -1; border-radius: inherit;
+  transform: translateY(101%); transition: transform .55s var(--ease-out);
+}
+.sx .btn:hover::before { transform: none; }
+.sx .btn svg { width: 18px; height: 18px; transition: transform .45s var(--ease-out); }
+.sx .btn:hover svg { transform: translateX(4px); }
+.sx .btn-dark { background: var(--ink); color: #fff; }
+.sx .btn-dark::before { background: var(--accent); }
+.sx .btn-light { background: #fff; color: var(--ink); }
+.sx .btn-light::before { background: var(--ink); }
+.sx .btn-light:hover { color: #fff; }
+.sx .btn-line { border-color: currentColor; color: var(--ink); background: transparent; }
+.sx .btn-line::before { background: var(--ink); }
+.sx .btn-line:hover { color: #fff; border-color: var(--ink); }
+.sx .btn-block { width: 100%; }
+.sx .btn:disabled { opacity: .45; cursor: not-allowed; }
+.sx .link-arrow {
+  display: inline-flex; align-items: center; gap: 8px; padding-bottom: 3px;
+  font-size: 14px; font-weight: 600; text-decoration: none;
+  background: linear-gradient(currentColor, currentColor) left bottom / 100% 1px no-repeat;
+  transition: background-size .5s var(--ease-out);
+}
+.sx .link-arrow:hover { background-size: 0 1px; background-position: right bottom; }
+.sx .link-arrow svg { width: 16px; height: 16px; transition: transform .4s var(--ease-out); }
+.sx .link-arrow:hover svg { transform: translateX(4px); }

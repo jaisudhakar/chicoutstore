@@ -1,0 +1,19 @@
+{%- comment -%}
+  Product options + variants as JSON for the section scripts (rack, hang rail, orbit, quick view).
+  Usage (inside a JSON object): {% render 'site-product-json', product: product %}
+{%- endcomment -%}
+"options": [
+  {%- for o in product.options_with_values -%}
+    {"name": {{ o.name | json }}, "values": [
+      {%- for val in o.values -%}
+        {%- assign val_name = val.name | default: val -%}
+        {{- val_name | json -}}{%- unless forloop.last -%},{%- endunless -%}
+      {%- endfor -%}
+    ]}{%- unless forloop.last -%},{%- endunless -%}
+  {%- endfor -%}
+],
+"variants": [
+  {%- for v in product.variants -%}
+    {"id": {{ v.id }}, "av": {{ v.available }}, "price": {{ v.price | money | json }}, "opts": {{ v.options | json }}}{%- unless forloop.last -%},{%- endunless -%}
+  {%- endfor -%}
+]
