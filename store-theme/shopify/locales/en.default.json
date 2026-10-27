@@ -1,0 +1,103 @@
+{
+  "general": {
+    "menu": "Menu",
+    "close": "Close",
+    "search": "Search",
+    "account": "Account",
+    "cart": "Cart",
+    "home": "Home",
+    "view_all": "View all"
+  },
+  "accessibility": {
+    "skip_to_content": "Skip to content",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "quantity": "Quantity"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty",
+    "remove": "Remove",
+    "subtotal": "Subtotal",
+    "taxes": "Taxes and shipping calculated at checkout.",
+    "checkout": "Check out",
+    "view": "View cart",
+    "continue": "Continue shopping",
+    "product": "Product",
+    "total": "Total",
+    "note": "Order special instructions"
+  },
+  "product": {
+    "add_to_cart": "Add to cart",
+    "sold_out": "Sold out",
+    "unavailable": "Unavailable",
+    "tax_included": "Tax included. Shipping calculated at checkout.",
+    "add_error": "Could not add to cart. Please try again.",
+    "related": "You may also like",
+    "on_sale": "Sale"
+  },
+  "collection": {
+    "sort_by": "Sort by",
+    "all": "All",
+    "count": {
+      "one": "{{ count }} product",
+      "other": "{{ count }} products"
+    },
+    "empty": "No products found."
+  },
+  "search": {
+    "placeholder": "Search products",
+    "title": "Search results",
+    "no_results": "No products found.",
+    "results_for": "Results for “{{ terms }}”"
+  },
+  "newsletter": {
+    "email": "Email",
+    "subscribe": "Subscribe",
+    "success": "Thanks for subscribing."
+  },
+  "contact": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone number",
+    "comment": "Comment",
+    "send": "Send",
+    "success": "Thanks for contacting us. We’ll get back to you as soon as possible."
+  },
+  "customer": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "sign_in": "Sign in",
+    "create_account": "Create account",
+    "forgot_password": "Forgot your password?",
+    "reset_password": "Reset your password",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "my_account": "Account",
+    "log_out": "Log out",
+    "order_history": "Order history",
+    "no_orders": "You haven't placed any orders yet.",
+    "order": "Order",
+    "date": "Date",
+    "payment_status": "Payment status",
+    "fulfillment_status": "Fulfillment status",
+    "total": "Total",
+    "addresses": "Addresses",
+    "account_details": "Account details",
+    "activate": "Activate account",
+    "new_password": "New password",
+    "confirm_password": "Confirm password"
+  },
+  "gift_card": {
+    "title": "Your gift card",
+    "code": "Gift card code",
+    "expired": "This gift card has expired"
+  },
+  "password": {
+    "opening_soon": "Opening soon",
+    "enter": "Enter using password"
+  }
+}

@@ -1,0 +1,16 @@
+<div class="page-width page-content">
+  <p><a class="link" href="{{ routes.account_url }}">{{ 'customer.my_account' | t }}</a></p>
+  <h1 class="h1">{{ 'customer.order' | t }} {{ order.name }}</h1>
+  <p class="muted">{{ order.created_at | time_tag: format: 'date_at_time' }}</p>
+  <table class="cart-page__table" style="margin-top:20px">
+    <thead><tr><th>{{ 'cart.product' | t }}</th><th>{{ 'accessibility.quantity' | t }}</th><th style="text-align:right">{{ 'cart.total' | t }}</th></tr></thead>
+    <tbody>
+      {%- for line_item in order.line_items -%}
+        <tr><td>{{ line_item.title | link_to: line_item.product.url }}</td><td>{{ line_item.quantity }}</td><td style="text-align:right">{{ line_item.final_line_price | money }}</td></tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
+  <p style="text-align:right;margin-top:16px"><strong>{{ 'customer.total' | t }}: {{ order.total_net_amount | money_with_currency }}</strong></p>
+  <h2 class="h2" style="margin:24px 0 8px">Shipping address</h2>
+  {{ order.shipping_address | format_address }}
+</div>

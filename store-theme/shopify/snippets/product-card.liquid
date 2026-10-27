@@ -1,0 +1,32 @@
+{%- comment -%}
+  Product card. Usage: {% render 'product-card', product: product %}
+  Badges: "Sold out", "Sale", or a product tag named "New" / "Bestseller".
+{%- endcomment -%}
+<li class="card">
+  <a class="card__link" href="{{ product.url }}">
+    <div class="card__media">
+      {%- if product.available == false -%}
+        <span class="card__badge card__badge--sold">{{ 'product.sold_out' | t }}</span>
+      {%- elsif product.compare_at_price > product.price -%}
+        <span class="card__badge">{{ 'product.on_sale' | t }}</span>
+      {%- elsif product.tags contains 'New' -%}
+        <span class="card__badge">New</span>
+      {%- elsif product.tags contains 'Bestseller' -%}
+        <span class="card__badge">Bestseller</span>
+      {%- endif -%}
+      {%- if product.featured_media -%}
+        {{ product.featured_media | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(min-width: 990px) 25vw, 50vw', widths: '360, 540, 720, 900', alt: product.title }}
+        {%- if product.media[1] -%}
+          {{ product.media[1] | image_url: width: 900 | image_tag: loading: 'lazy', class: 'card__img-2', sizes: '(min-width: 990px) 25vw, 50vw', widths: '360, 540, 720, 900', alt: '' }}
+        {%- endif -%}
+      {%- else -%}
+        {{ 'product-apparel-1' | placeholder_svg_tag }}
+      {%- endif -%}
+    </div>
+    <div class="card__info">
+      <p class="card__vendor">{{ product.vendor }}</p>
+      <h3 class="card__title">{{ product.title }}</h3>
+      {% render 'price', product: product %}
+    </div>
+  </a>
+</li>

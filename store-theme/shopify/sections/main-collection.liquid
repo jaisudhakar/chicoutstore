@@ -1,0 +1,68 @@
+{%- paginate collection.products by section.settings.per_page -%}
+  <div class="page-width">
+    <div class="collection-hero">
+      <ol class="breadcrumbs"><li><a href="{{ routes.root_url }}">{{ 'general.home' | t }}</a></li><li>{{ collection.title | escape }}</li></ol>
+      <h1 class="h1">{{ collection.title | escape }}</h1>
+      {%- if collection.description != blank -%}<div class="rte muted" style="margin-top:10px">{{ collection.description }}</div>{%- endif -%}
+    </div>
+
+    <div class="facets">
+      <div class="facets__pills">
+        {%- for block in section.blocks -%}
+          {%- assign c = block.settings.collection -%}
+          {%- if c != blank -%}
+            <a class="pill" href="{{ c.url }}"{% if c.handle == collection.handle %} aria-current="page"{% endif %} {{ block.shopify_attributes }}>{{ block.settings.label | default: c.title | escape }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+      <div class="facets__right">
+        <label for="SortBy">{{ 'collection.sort_by' | t }}</label>
+        {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
+        <select id="SortBy" class="select" data-sort>
+          {%- for option in collection.sort_options -%}
+            <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected{% endif %}>{{ option.name | escape }}</option>
+          {%- endfor -%}
+        </select>
+        <span class="muted">{{ 'collection.count' | t: count: collection.products_count }}</span>
+      </div>
+    </div>
+
+    {%- if collection.products.size > 0 -%}
+      <ul class="product-grid">
+        {%- for product in collection.products -%}
+          {% render 'product-card', product: product %}
+        {%- endfor -%}
+      </ul>
+    {%- else -%}
+      <div class="empty-state"><p>{{ 'collection.empty' | t }}</p><a class="button" href="{{ routes.all_products_collection_url }}">{{ 'cart.continue' | t }}</a></div>
+    {%- endif -%}
+
+    {%- if paginate.pages > 1 -%}
+      <nav class="pagination" aria-label="Pagination">
+        {%- for part in paginate.parts -%}
+          {%- if part.is_link -%}<a href="{{ part.url }}">{{ part.title }}</a>{%- elsif part.title == paginate.current_page -%}<span class="current" aria-current="page">{{ part.title }}</span>{%- else -%}<span>{{ part.title }}</span>{%- endif -%}
+        {%- endfor -%}
+      </nav>
+    {%- endif -%}
+    <div style="height:64px"></div>
+  </div>
+{%- endpaginate -%}
+
+{% schema %}
+{
+  "name": "Collection",
+  "settings": [
+    { "type": "range", "id": "per_page", "label": "Products per page", "min": 8, "max": 48, "step": 4, "default": 24 }
+  ],
+  "blocks": [
+    {
+      "type": "collection_link",
+      "name": "Category link",
+      "settings": [
+        { "type": "collection", "id": "collection", "label": "Collection" },
+        { "type": "text", "id": "label", "label": "Label (optional)" }
+      ]
+    }
+  ]
+}
+{% endschema %}

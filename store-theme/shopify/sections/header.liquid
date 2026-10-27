@@ -1,0 +1,69 @@
+<header class="site-header">
+  <div class="page-width header__inner">
+    <button type="button" class="icon-button header__menu-toggle" data-menu-open aria-label="{{ 'general.menu' | t }}">{% render 'icon', name: 'menu' %}</button>
+
+    <a class="header__logo" href="{{ routes.root_url }}">
+      {%- if settings.logo != blank -%}
+        {%- assign logo_alt = settings.logo.alt | default: shop.name -%}
+        {{ settings.logo | image_url: width: 480 | image_tag: width: settings.logo_width, height: '', alt: logo_alt, style: 'max-height:none' }}
+      {%- else -%}
+        {{ shop.name }}
+      {%- endif -%}
+    </a>
+
+    <nav class="header__nav" aria-label="Main">
+      <button type="button" class="icon-button menu-close" data-menu-close aria-label="{{ 'general.close' | t }}">{% render 'icon', name: 'close' %}</button>
+      <ul>
+        {%- for link in section.settings.menu.links -%}
+          <li>
+            {%- if link.links != blank -%}
+              <details>
+                <summary>{{ link.title | escape }}</summary>
+                <ul class="header__submenu">
+                  {%- for child in link.links -%}
+                    <li><a href="{{ child.url }}"{% if child.current %} aria-current="page"{% endif %}>{{ child.title | escape }}</a></li>
+                  {%- endfor -%}
+                </ul>
+              </details>
+            {%- else -%}
+              <a href="{{ link.url }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+
+    <div class="header__icons">
+      <a class="icon-button" href="{{ routes.search_url }}" data-search-open aria-label="{{ 'general.search' | t }}">{% render 'icon', name: 'search' %}</a>
+      {%- if shop.customer_accounts_enabled -%}
+        <a class="icon-button hide-mobile" href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" aria-label="{{ 'general.account' | t }}">{% render 'icon', name: 'account' %}</a>
+      {%- endif -%}
+      <a class="icon-button" href="{{ routes.cart_url }}" data-cart-open aria-label="{{ 'general.cart' | t }}">
+        {%- render 'icon', name: 'bag' -%}
+        <span class="cart-count" data-cart-count data-count="{{ cart.item_count }}">{% if cart.item_count > 0 %}{{ cart.item_count }}{% endif %}</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<div class="search-modal" role="dialog" aria-label="{{ 'general.search' | t }}" aria-modal="true">
+  <div class="page-width">
+    <form class="search-modal__form" action="{{ routes.search_url }}" method="get" role="search">
+      <input type="hidden" name="type" value="product">
+      <label class="visually-hidden" for="Search-Input">{{ 'general.search' | t }}</label>
+      <input id="Search-Input" type="search" name="q" placeholder="{{ 'search.placeholder' | t }}" autocomplete="off">
+      <button type="button" class="icon-button" data-search-close aria-label="{{ 'general.close' | t }}">{% render 'icon', name: 'close' %}</button>
+    </form>
+    <div class="search-results" data-search-results></div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Header",
+  "class": "section-header",
+  "settings": [
+    { "type": "link_list", "id": "menu", "label": "Menu", "default": "main-menu" }
+  ]
+}
+{% endschema %}

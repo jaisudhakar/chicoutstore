@@ -1,0 +1,13 @@
+{%- comment -%} Usage: {% render 'price', product: product %} {%- endcomment -%}
+{%- liquid
+  assign variant = product.selected_or_first_available_variant
+  assign on_sale = false
+  if variant.compare_at_price > variant.price
+    assign on_sale = true
+  endif
+-%}
+<div class="price{% if on_sale %} price--sale{% endif %}">
+  {%- if product.price_varies -%}From {% endif -%}
+  <span data-product-price>{{ variant.price | money }}</span>
+  {%- if on_sale -%}<s>{{ variant.compare_at_price | money }}</s>{%- endif -%}
+</div>

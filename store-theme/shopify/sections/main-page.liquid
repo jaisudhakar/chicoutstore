@@ -1,0 +1,8 @@
+<div class="page-width page-content">
+  <h1 class="h1" style="margin-bottom:20px">{{ page.title | escape }}</h1>
+  <div class="rte">{{ page.content }}</div>
+</div>
+
+{% schema %}
+{ "name": "Page", "settings": [] }
+{% endschema %}

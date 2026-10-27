@@ -1,0 +1,117 @@
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+<div class="page-width">
+  <ol class="breadcrumbs" style="margin-top:20px">
+    <li><a href="{{ routes.root_url }}">{{ 'general.home' | t }}</a></li>
+    {%- if collection -%}<li><a href="{{ collection.url }}">{{ collection.title | escape }}</a></li>{%- endif -%}
+    <li>{{ product.title | escape }}</li>
+  </ol>
+  <div class="product">
+    <div>
+      <div class="product__media-main">
+        {%- if product.featured_media -%}
+          {{ product.featured_media | image_url: width: 1400 | image_tag: widths: '600, 900, 1200, 1400', sizes: '(min-width: 750px) 55vw, 100vw', loading: 'eager', fetchpriority: 'high', alt: product.title }}
+        {%- else -%}
+          {{ 'product-apparel-1' | placeholder_svg_tag }}
+        {%- endif -%}
+      </div>
+      {%- if product.media.size > 1 -%}
+        <div class="product__thumbs">
+          {%- for media in product.media -%}
+            <button type="button" data-thumb data-src="{{ media | image_url: width: 1400 }}" data-srcset="" aria-current="{% if forloop.first %}true{% else %}false{% endif %}" aria-label="{{ media.alt | default: product.title | escape }}">
+              {{ media | image_url: width: 200 | image_tag: loading: 'lazy', alt: '' }}
+            </button>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+
+    <div class="product__info">
+      <p class="caption muted">{{ product.vendor | escape }}</p>
+      <h1 class="h1">{{ product.title | escape }}</h1>
+      <div class="product__price">{% render 'price', product: product %}</div>
+      <p class="product__tax">{{ 'product.tax_included' | t }}</p>
+
+      {%- form 'product', product, data-product-form: '', novalidate: 'novalidate' -%}
+        {%- unless product.has_only_default_variant -%}
+          <p class="option-label"><span>{{ product.options.first | escape }}</span></p>
+          <fieldset class="option-values">
+            <legend class="visually-hidden">{{ product.options.first | escape }}</legend>
+            {%- for variant in product.variants -%}
+              <input type="radio" name="id" id="Variant-{{ variant.id }}" value="{{ variant.id }}" data-price="{{ variant.price }}"
+                {% if variant.id == current_variant.id %}checked{% endif %}
+                {% unless variant.available %}disabled data-sold-out{% endunless %}>
+              <label for="Variant-{{ variant.id }}">{{ variant.title | escape }}</label>
+            {%- endfor -%}
+          </fieldset>
+        {%- else -%}
+          <input type="hidden" name="id" value="{{ current_variant.id }}">
+        {%- endunless -%}
+
+        <p class="option-label">{{ 'accessibility.quantity' | t }}</p>
+        <div class="quantity">
+          <button type="button" data-qty-step="-1" aria-label="{{ 'accessibility.decrease' | t }}">−</button>
+          <input type="number" name="quantity" min="1" value="1" aria-label="{{ 'accessibility.quantity' | t }}">
+          <button type="button" data-qty-step="1" aria-label="{{ 'accessibility.increase' | t }}">+</button>
+        </div>
+
+        <div class="product__buttons">
+          <button type="submit" class="button button--secondary button--full" data-add {% unless current_variant.available %}disabled{% endunless %}>
+            {%- if current_variant.available -%}{{ 'product.add_to_cart' | t }}{%- else -%}{{ 'product.sold_out' | t }}{%- endif -%}
+          </button>
+          {%- if section.settings.show_dynamic_checkout -%}{{ form | payment_button }}{%- endif -%}
+        </div>
+        <p class="form-message form-message--error" data-form-error role="alert"></p>
+      {%- endform -%}
+
+      {%- if product.description != blank -%}<div class="rte product__description">{{ product.description }}</div>{%- endif -%}
+
+      <div class="accordion">
+        {%- if section.settings.size_guide != blank -%}
+          <details><summary>{{ section.settings.size_guide_title | escape }}</summary><div class="rte">{{ section.settings.size_guide }}</div></details>
+        {%- endif -%}
+        {%- if section.settings.shipping != blank -%}
+          <details><summary>{{ section.settings.shipping_title | escape }}</summary><div class="rte">{{ section.settings.shipping }}</div></details>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+
+  {%- if section.settings.show_related -%}
+    {%- assign related_collection = collection | default: product.collections.first -%}
+    {%- if related_collection and related_collection.products_count > 1 -%}
+      <section class="section" style="padding-top:0">
+        <div class="title-row"><h2 class="h2">{{ 'product.related' | t }}</h2></div>
+        <ul class="product-grid">
+          {%- assign shown = 0 -%}
+          {%- for p in related_collection.products -%}
+            {%- if p.id != product.id and shown < 4 -%}
+              {% render 'product-card', product: p %}
+              {%- assign shown = shown | plus: 1 -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </section>
+    {%- endif -%}
+  {%- endif -%}
+</div>
+
+<script type="application/ld+json">
+  {{ product | structured_data }}
+</script>
+
+{% schema %}
+{
+  "name": "Product",
+  "settings": [
+    { "type": "checkbox", "id": "show_dynamic_checkout", "label": "Show “Buy it now” button", "default": true },
+    { "type": "checkbox", "id": "show_related", "label": "Show related products", "default": true },
+    { "type": "text", "id": "size_guide_title", "label": "Size guide title", "default": "Size guide" },
+    {
+      "type": "richtext", "id": "size_guide", "label": "Size guide",
+      "default": "<p><strong>Shirts, tees &amp; polos</strong> — S: chest 100 cm · M: 106 cm · L: 112 cm · XL: 118 cm · XXL: 124 cm</p><p><strong>Trousers &amp; jeans</strong> — 28: waist 71 cm · 30: 76 cm · 32: 81 cm · 34: 86 cm · 36: 91 cm</p>"
+    },
+    { "type": "text", "id": "shipping_title", "label": "Shipping title", "default": "Shipping & returns" },
+    { "type": "richtext", "id": "shipping", "label": "Shipping text", "default": "<p>Shipping options and costs are shown at checkout. See our refund policy for returns and exchanges.</p>" }
+  ]
+}
+{% endschema %}

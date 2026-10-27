@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product — ChicOut</title>
+  <meta name="description" content="ChicOut product.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/store.css">
+</head>
+<body>
+  <div data-header></div>
+  <main id="main">
+    <div class="page-width" data-product>
+      <ol class="breadcrumbs" style="margin-top:20px"><li><a href="index.html">Home</a></li><li data-crumb-cat></li><li data-crumb-name></li></ol>
+      <div class="product">
+        <div>
+          <div class="product__media-main"><img data-main-img src="" alt="" width="900" height="1200"></div>
+        </div>
+        <div class="product__info">
+          <p class="caption muted">ChicOut</p>
+          <h1 class="h1" data-title></h1>
+          <div class="product__price" data-price></div>
+          <p class="product__tax">Tax included. Shipping calculated at checkout.</p>
+          <p class="option-label"><span data-option-label>Size</span></p>
+          <fieldset class="option-values" data-sizes><legend class="visually-hidden">Size</legend></fieldset>
+          <p class="option-label">Quantity</p>
+          <div class="quantity"><button type="button" data-qty-step="-1" aria-label="Decrease quantity">−</button><input type="number" min="1" value="1" data-qty-input aria-label="Quantity"><button type="button" data-qty-step="1" aria-label="Increase quantity">+</button></div>
+          <div class="product__buttons">
+            <button type="button" class="button button--secondary button--full" data-add>Add to cart</button>
+            <button type="button" class="button button--full" data-buy>Buy it now</button>
+          </div>
+          <p class="product__description" data-desc></p>
+          <div class="accordion">
+            <details open><summary>Details &amp; care</summary><div class="rte" data-details></div></details>
+            <details><summary>Size guide</summary><div class="rte" data-size-guide></div></details>
+            <details><summary>Shipping &amp; returns</summary><div class="rte"><p>Shipping options and costs are shown at checkout. See our <a class="link" href="https://chicoutstore.in/policies/refund-policy">refund policy</a> for returns and exchanges.</p></div></details>
+          </div>
+        </div>
+      </div>
+      <section class="section" style="padding-top:0">
+        <div class="title-row"><h2 class="h2">You may also like</h2></div>
+        <ul class="product-grid" data-related></ul>
+      </section>
+    </div>
+  </main>
+  <div data-footer></div>
+  <script src="assets/products.js"></script>
+  <script src="assets/store.js"></script>
+</body>
+</html>

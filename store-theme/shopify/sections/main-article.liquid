@@ -1,0 +1,11 @@
+<article class="page-width page-content">
+  <p class="muted"><a href="{{ blog.url }}">{{ blog.title | escape }}</a></p>
+  <h1 class="h1" style="margin-bottom:12px">{{ article.title | escape }}</h1>
+  <p class="muted">{{ article.published_at | time_tag: format: 'date' }}</p>
+  {%- if article.image -%}<div style="margin:24px 0">{{ article.image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '600, 900, 1200, 1400', sizes: '(min-width: 780px) 780px, 100vw' }}</div>{%- endif -%}
+  <div class="rte">{{ article.content }}</div>
+</article>
+
+{% schema %}
+{ "name": "Article", "settings": [] }
+{% endschema %}

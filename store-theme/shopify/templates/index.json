@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": { "caption": "New arrivals", "heading": "New season shirts", "text": "Embroidered statement shirts, everyday solids, checks, relaxed trousers and denim.", "button_label": "Shop now", "button_link": "shopify://collections/all" }
+    },
+    "categories": {
+      "type": "collection-list",
+      "blocks": {
+        "c1": { "type": "collection", "settings": { "collection": "embroidered-printed-shirts", "title": "Embroidered & printed" } },
+        "c2": { "type": "collection", "settings": { "collection": "checked-striped-shirts", "title": "Checks & stripes" } },
+        "c3": { "type": "collection", "settings": { "collection": "solid-shirts", "title": "Solid shirts" } },
+        "c4": { "type": "collection", "settings": { "collection": "trousers", "title": "Trousers" } }
+      },
+      "block_order": [ "c1", "c2", "c3", "c4" ],
+      "settings": { "heading": "Shop by category" }
+    },
+    "new_arrivals": {
+      "type": "featured-collection",
+      "settings": { "heading": "New arrivals", "collection": "embroidered-printed-shirts", "limit": 8, "no_top": true }
+    },
+    "embroidered": {
+      "type": "image-with-text",
+      "settings": { "caption": "Statement shirts", "heading": "Embroidered & printed", "text": "<p>Florals, vines and yoke embroidery on easy fits — one shirt is all the outfit needs.</p>", "button_label": "Shop the collection", "button_link": "shopify://collections/embroidered-printed-shirts", "reverse": false }
+    },
+    "checks": {
+      "type": "featured-collection",
+      "settings": { "heading": "Checks & stripes", "collection": "checked-striped-shirts", "limit": 4, "no_top": false }
+    },
+    "solids": {
+      "type": "featured-collection",
+      "settings": { "heading": "Solid shirts", "collection": "solid-shirts", "limit": 4, "no_top": true }
+    },
+    "bottoms": {
+      "type": "image-with-text",
+      "settings": { "caption": "Bottoms", "heading": "Trousers & jeans", "text": "<p>Relaxed drawstring trousers, pleated pairs and denim in straight, wide and flared fits.</p>", "button_label": "Shop trousers", "button_link": "shopify://collections/trousers", "reverse": true }
+    },
+    "jeans": {
+      "type": "featured-collection",
+      "settings": { "heading": "Jeans", "collection": "jeans", "limit": 4, "no_top": false }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": { "heading": "Subscribe to our emails", "text": "Be the first to know about new collections and exclusive offers." }
+    }
+  },
+  "order": [ "hero", "categories", "new_arrivals", "embroidered", "checks", "solids", "bottoms", "jeans", "newsletter" ]
+}

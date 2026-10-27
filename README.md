@@ -8,6 +8,7 @@ using the store's own product photos. It comes two ways from the same CSS/JS:
 | `html/` | Static multi-page site. Open `html/index.html` — no build step. |
 | `shopify/` | 9 theme sections + snippets + assets to drop into a Shopify theme. |
 | `scripts/` | `products.csv` (the catalogue), `prepare-images.py`, `build-catalog.py`, `sync-shopify-assets.sh`. |
+| `store-theme/` | A separate **classic** version (no extra animations): HTML site + complete Shopify theme + product import CSV. See `store-theme/README.md`. |
 
 ## Catalogue
 

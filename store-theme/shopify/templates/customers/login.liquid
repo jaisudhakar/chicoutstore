@@ -1,0 +1,16 @@
+<div class="page-width page-content" style="max-width:480px">
+  <h1 class="h1" style="margin-bottom:20px">{{ 'customer.login' | t }}</h1>
+  {%- form 'customer_login', class: 'contact-form', novalidate: 'novalidate' -%}
+    {%- if form.errors -%}<div class="form-message form-message--error full">{{ form.errors | default_errors }}</div>{%- endif -%}
+    <label class="field full">{{ 'customer.email' | t }}<input type="email" name="customer[email]" autocomplete="email" required></label>
+    <label class="field full">{{ 'customer.password' | t }}<input type="password" name="customer[password]" autocomplete="current-password" required></label>
+    <div class="full"><button class="button button--full" type="submit">{{ 'customer.sign_in' | t }}</button></div>
+    <p class="full"><a class="link" href="#recover">{{ 'customer.forgot_password' | t }}</a> · <a class="link" href="{{ routes.account_register_url }}">{{ 'customer.create_account' | t }}</a></p>
+  {%- endform -%}
+  <h2 class="h2" id="recover" style="margin:40px 0 16px">{{ 'customer.reset_password' | t }}</h2>
+  {%- form 'recover_customer_password', class: 'contact-form' -%}
+    {%- if form.posted_successfully? -%}<p class="form-message form-message--success full">We’ve sent you an email with a link to update your password.</p>{%- endif -%}
+    <label class="field full">{{ 'customer.email' | t }}<input type="email" name="email" autocomplete="email" required></label>
+    <div class="full"><button class="button button--secondary" type="submit">{{ 'customer.submit' | t }}</button></div>
+  {%- endform -%}
+</div>

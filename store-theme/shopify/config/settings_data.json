@@ -1,0 +1,15 @@
+{
+  "current": "Default",
+  "presets": {
+    "Default": {
+      "color_background": "#ffffff",
+      "color_text": "#121212",
+      "color_soft": "#f4f2ef",
+      "color_button": "#121212",
+      "type_header_font": "assistant_n7",
+      "type_body_font": "assistant_n4",
+      "button_radius": 0,
+      "logo_width": 130
+    }
+  }
+}

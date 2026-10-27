@@ -1,0 +1,25 @@
+<section class="section section--soft newsletter">
+  <div class="page-width">
+    <h2 class="h1">{{ section.settings.heading | escape }}</h2>
+    {%- if section.settings.text != blank -%}<p>{{ section.settings.text | escape }}</p>{%- endif -%}
+    {%- form 'customer', class: 'newsletter-form', id: 'NewsletterForm' -%}
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <label class="visually-hidden" for="NewsletterEmail">{{ 'newsletter.email' | t }}</label>
+      <input id="NewsletterEmail" type="email" name="contact[email]" placeholder="{{ 'newsletter.email' | t }}" autocomplete="email" required>
+      <button class="button" type="submit">{{ 'newsletter.subscribe' | t }}</button>
+      {%- if form.posted_successfully? -%}<p class="form-message form-message--success" style="flex-basis:100%">{{ 'newsletter.success' | t }}</p>{%- endif -%}
+      {%- if form.errors -%}<p class="form-message form-message--error" style="flex-basis:100%">{{ form.errors | default_errors }}</p>{%- endif -%}
+    {%- endform -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Newsletter",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Subscribe to our emails" },
+    { "type": "text", "id": "text", "label": "Text", "default": "Be the first to know about new collections and exclusive offers." }
+  ],
+  "presets": [ { "name": "Newsletter" } ]
+}
+{% endschema %}

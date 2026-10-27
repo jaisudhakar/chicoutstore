@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — ChicOut</title>
+  <meta name="description" content="Contact ChicOut.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/store.css">
+</head>
+<body>
+  <div data-header></div>
+  <main id="main">
+    <div class="page-width">
+      <div class="collection-hero"><ol class="breadcrumbs"><li><a href="index.html">Home</a></li><li>Contact</li></ol><h1 class="h1">Contact us</h1></div>
+      <div class="contact" style="padding-top:0">
+        <form class="contact-form" data-contact novalidate>
+          <label class="field">Name<input type="text" name="name" autocomplete="name"></label>
+          <label class="field">Email *<input type="email" name="email" autocomplete="email" required></label>
+          <label class="field full">Phone number<input type="tel" name="phone" autocomplete="tel"></label>
+          <label class="field full">Comment<textarea name="body"></textarea></label>
+          <div class="full"><button class="button" type="submit">Send</button><p class="form-message" data-contact-message></p></div>
+        </form>
+        <div class="contact-details">
+          <h2>Get in touch</h2>
+          <p>Questions about an order, sizing or returns? Send us a message and we’ll get back to you.</p>
+          <p data-store-email></p>
+          <p data-store-phone></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div data-footer></div>
+  <script src="assets/products.js"></script>
+  <script src="assets/store.js"></script>
+</body>
+</html>

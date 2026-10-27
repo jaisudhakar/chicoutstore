@@ -1,0 +1,20 @@
+<div class="page-width page-content">
+  <p><a class="link" href="{{ routes.account_url }}">{{ 'customer.my_account' | t }}</a></p>
+  <h1 class="h1" style="margin-bottom:20px">{{ 'customer.addresses' | t }}</h1>
+  {%- paginate customer.addresses by 10 -%}
+    {%- for address in customer.addresses -%}
+      <div style="padding:16px 0;border-bottom:1px solid var(--c-line)">{{ address | format_address }}</div>
+    {%- endfor -%}
+  {%- endpaginate -%}
+  <h2 class="h2" style="margin:32px 0 16px">Add a new address</h2>
+  {%- form 'customer_address', customer.new_address, class: 'contact-form' -%}
+    <label class="field">{{ 'customer.first_name' | t }}<input type="text" name="address[first_name]" autocomplete="given-name"></label>
+    <label class="field">{{ 'customer.last_name' | t }}<input type="text" name="address[last_name]" autocomplete="family-name"></label>
+    <label class="field full">Address<input type="text" name="address[address1]" autocomplete="address-line1"></label>
+    <label class="field">City<input type="text" name="address[city]" autocomplete="address-level2"></label>
+    <label class="field">PIN code<input type="text" name="address[zip]" autocomplete="postal-code"></label>
+    <label class="field">Country<select class="select" name="address[country]" data-default="{{ form.country }}">{{ all_country_option_tags }}</select></label>
+    <label class="field">Phone<input type="tel" name="address[phone]" autocomplete="tel"></label>
+    <div class="full"><button class="button" type="submit">Add address</button></div>
+  {%- endform -%}
+</div>

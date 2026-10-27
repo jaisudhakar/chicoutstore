@@ -1,0 +1,501 @@
+Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Requires Shipping,Variant Taxable,Image Src,Image Position,Image Alt Text,Status
+sage-green-oxford-shirt,Sage Green Oxford Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,SAGE-GREEN-OXFORD-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/sage-green-oxford-shirt.webp,1,Sage Green Oxford Shirt,draft
+sage-green-oxford-shirt,,,,,,,,M,SAGE-GREEN-OXFORD-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+sage-green-oxford-shirt,,,,,,,,L,SAGE-GREEN-OXFORD-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+sage-green-oxford-shirt,,,,,,,,XL,SAGE-GREEN-OXFORD-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+sage-green-oxford-shirt,,,,,,,,XXL,SAGE-GREEN-OXFORD-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+plum-embroidered-vine-shirt,Plum Embroidered Vine Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed, New",FALSE,Size,S,PLUM-EMBROIDERED-VINE-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/plum-embroidered-vine-shirt.webp,1,Plum Embroidered Vine Shirt,draft
+plum-embroidered-vine-shirt,,,,,,,,M,PLUM-EMBROIDERED-VINE-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+plum-embroidered-vine-shirt,,,,,,,,L,PLUM-EMBROIDERED-VINE-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+plum-embroidered-vine-shirt,,,,,,,,XL,PLUM-EMBROIDERED-VINE-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+plum-embroidered-vine-shirt,,,,,,,,XXL,PLUM-EMBROIDERED-VINE-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+royal-blue-motorsport-zip-polo,Royal Blue Motorsport Zip Polo,"<p>An easy top for off-duty days. Pair it with relaxed trousers or jeans.</p><ul><li>Easy, relaxed fit</li><li>Ribbed or tipped trims</li><li>Machine wash cold</li></ul>",ChicOut,T-Shirts & Polos,"tees, Tees & polos",FALSE,Size,S,ROYAL-BLUE-MOTORSPORT-ZIP-POLO-S,,,deny,manual,1199.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/royal-blue-motorsport-zip-polo.webp,1,Royal Blue Motorsport Zip Polo,draft
+royal-blue-motorsport-zip-polo,,,,,,,,M,ROYAL-BLUE-MOTORSPORT-ZIP-POLO-M,,,deny,manual,1199.00,TRUE,TRUE,,,,
+royal-blue-motorsport-zip-polo,,,,,,,,L,ROYAL-BLUE-MOTORSPORT-ZIP-POLO-L,,,deny,manual,1199.00,TRUE,TRUE,,,,
+royal-blue-motorsport-zip-polo,,,,,,,,XL,ROYAL-BLUE-MOTORSPORT-ZIP-POLO-XL,,,deny,manual,1199.00,TRUE,TRUE,,,,
+royal-blue-motorsport-zip-polo,,,,,,,,XXL,ROYAL-BLUE-MOTORSPORT-ZIP-POLO-XXL,,,deny,manual,1199.00,TRUE,TRUE,,,,
+red-tartan-check-shirt,Red Tartan Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,RED-TARTAN-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/red-tartan-check-shirt.webp,1,Red Tartan Check Shirt,draft
+red-tartan-check-shirt,,,,,,,,M,RED-TARTAN-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+red-tartan-check-shirt,,,,,,,,L,RED-TARTAN-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+red-tartan-check-shirt,,,,,,,,XL,RED-TARTAN-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+red-tartan-check-shirt,,,,,,,,XXL,RED-TARTAN-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+mauve-button-down-shirt,Mauve Button-Down Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,MAUVE-BUTTON-DOWN-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/mauve-button-down-shirt.webp,1,Mauve Button-Down Shirt,draft
+mauve-button-down-shirt,,,,,,,,M,MAUVE-BUTTON-DOWN-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+mauve-button-down-shirt,,,,,,,,L,MAUVE-BUTTON-DOWN-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+mauve-button-down-shirt,,,,,,,,XL,MAUVE-BUTTON-DOWN-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+mauve-button-down-shirt,,,,,,,,XXL,MAUVE-BUTTON-DOWN-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+beige-relaxed-drawstring-trousers,Beige Relaxed Drawstring Trousers,"<p>Comfortable trousers with an easy, relaxed shape.</p><ul><li>Relaxed fit</li><li>Side pockets</li><li>Machine wash cold</li></ul>",ChicOut,Trousers,"trousers, Trousers, Bestseller",FALSE,Waist,28,BEIGE-RELAXED-DRAWSTRING-TROUSERS-28,,,deny,manual,1499.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/beige-relaxed-drawstring-trousers.webp,1,Beige Relaxed Drawstring Trousers,draft
+beige-relaxed-drawstring-trousers,,,,,,,,30,BEIGE-RELAXED-DRAWSTRING-TROUSERS-30,,,deny,manual,1499.00,TRUE,TRUE,,,,
+beige-relaxed-drawstring-trousers,,,,,,,,32,BEIGE-RELAXED-DRAWSTRING-TROUSERS-32,,,deny,manual,1499.00,TRUE,TRUE,,,,
+beige-relaxed-drawstring-trousers,,,,,,,,34,BEIGE-RELAXED-DRAWSTRING-TROUSERS-34,,,deny,manual,1499.00,TRUE,TRUE,,,,
+beige-relaxed-drawstring-trousers,,,,,,,,36,BEIGE-RELAXED-DRAWSTRING-TROUSERS-36,,,deny,manual,1499.00,TRUE,TRUE,,,,
+navy-oxford-shirt,Navy Oxford Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,NAVY-OXFORD-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/navy-oxford-shirt.webp,1,Navy Oxford Shirt,draft
+navy-oxford-shirt,,,,,,,,M,NAVY-OXFORD-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+navy-oxford-shirt,,,,,,,,L,NAVY-OXFORD-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+navy-oxford-shirt,,,,,,,,XL,NAVY-OXFORD-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+navy-oxford-shirt,,,,,,,,XXL,NAVY-OXFORD-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+teal-leaf-embroidered-shirt,Teal Leaf Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,TEAL-LEAF-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/teal-leaf-embroidered-shirt.webp,1,Teal Leaf Embroidered Shirt,draft
+teal-leaf-embroidered-shirt,,,,,,,,M,TEAL-LEAF-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+teal-leaf-embroidered-shirt,,,,,,,,L,TEAL-LEAF-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+teal-leaf-embroidered-shirt,,,,,,,,XL,TEAL-LEAF-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+teal-leaf-embroidered-shirt,,,,,,,,XXL,TEAL-LEAF-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+stone-drawstring-trousers,Stone Drawstring Trousers,"<p>Comfortable trousers with an easy, relaxed shape.</p><ul><li>Relaxed fit</li><li>Side pockets</li><li>Machine wash cold</li></ul>",ChicOut,Trousers,"trousers, Trousers",FALSE,Waist,28,STONE-DRAWSTRING-TROUSERS-28,,,deny,manual,1499.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/stone-drawstring-trousers.webp,1,Stone Drawstring Trousers,draft
+stone-drawstring-trousers,,,,,,,,30,STONE-DRAWSTRING-TROUSERS-30,,,deny,manual,1499.00,TRUE,TRUE,,,,
+stone-drawstring-trousers,,,,,,,,32,STONE-DRAWSTRING-TROUSERS-32,,,deny,manual,1499.00,TRUE,TRUE,,,,
+stone-drawstring-trousers,,,,,,,,34,STONE-DRAWSTRING-TROUSERS-34,,,deny,manual,1499.00,TRUE,TRUE,,,,
+stone-drawstring-trousers,,,,,,,,36,STONE-DRAWSTRING-TROUSERS-36,,,deny,manual,1499.00,TRUE,TRUE,,,,
+olive-stripe-long-sleeve-tee,Olive Stripe Long-Sleeve Tee,"<p>An easy top for off-duty days. Pair it with relaxed trousers or jeans.</p><ul><li>Easy, relaxed fit</li><li>Ribbed or tipped trims</li><li>Machine wash cold</li></ul>",ChicOut,T-Shirts & Polos,"tees, Tees & polos",FALSE,Size,S,OLIVE-STRIPE-LONG-SLEEVE-TEE-S,,,deny,manual,999.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/olive-stripe-long-sleeve-tee.webp,1,Olive Stripe Long-Sleeve Tee,draft
+olive-stripe-long-sleeve-tee,,,,,,,,M,OLIVE-STRIPE-LONG-SLEEVE-TEE-M,,,deny,manual,999.00,TRUE,TRUE,,,,
+olive-stripe-long-sleeve-tee,,,,,,,,L,OLIVE-STRIPE-LONG-SLEEVE-TEE-L,,,deny,manual,999.00,TRUE,TRUE,,,,
+olive-stripe-long-sleeve-tee,,,,,,,,XL,OLIVE-STRIPE-LONG-SLEEVE-TEE-XL,,,deny,manual,999.00,TRUE,TRUE,,,,
+olive-stripe-long-sleeve-tee,,,,,,,,XXL,OLIVE-STRIPE-LONG-SLEEVE-TEE-XXL,,,deny,manual,999.00,TRUE,TRUE,,,,
+slate-mini-check-shirt,Slate Mini Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,SLATE-MINI-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/slate-mini-check-shirt.webp,1,Slate Mini Check Shirt,draft
+slate-mini-check-shirt,,,,,,,,M,SLATE-MINI-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+slate-mini-check-shirt,,,,,,,,L,SLATE-MINI-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+slate-mini-check-shirt,,,,,,,,XL,SLATE-MINI-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+slate-mini-check-shirt,,,,,,,,XXL,SLATE-MINI-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+camel-solid-shirt,Camel Solid Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,CAMEL-SOLID-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/camel-solid-shirt.webp,1,Camel Solid Shirt,draft
+camel-solid-shirt,,,,,,,,M,CAMEL-SOLID-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+camel-solid-shirt,,,,,,,,L,CAMEL-SOLID-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+camel-solid-shirt,,,,,,,,XL,CAMEL-SOLID-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+camel-solid-shirt,,,,,,,,XXL,CAMEL-SOLID-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+navy-tonal-embroidered-shirt,Navy Tonal Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,NAVY-TONAL-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/navy-tonal-embroidered-shirt.webp,1,Navy Tonal Embroidered Shirt,draft
+navy-tonal-embroidered-shirt,,,,,,,,M,NAVY-TONAL-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+navy-tonal-embroidered-shirt,,,,,,,,L,NAVY-TONAL-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+navy-tonal-embroidered-shirt,,,,,,,,XL,NAVY-TONAL-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+navy-tonal-embroidered-shirt,,,,,,,,XXL,NAVY-TONAL-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+sand-solid-shirt,Sand Solid Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,SAND-SOLID-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/sand-solid-shirt.webp,1,Sand Solid Shirt,draft
+sand-solid-shirt,,,,,,,,M,SAND-SOLID-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+sand-solid-shirt,,,,,,,,L,SAND-SOLID-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+sand-solid-shirt,,,,,,,,XL,SAND-SOLID-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+sand-solid-shirt,,,,,,,,XXL,SAND-SOLID-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+rust-floral-embroidered-shirt,Rust Floral Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed, New",FALSE,Size,S,RUST-FLORAL-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/rust-floral-embroidered-shirt.webp,1,Rust Floral Embroidered Shirt,draft
+rust-floral-embroidered-shirt,,,,,,,,M,RUST-FLORAL-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+rust-floral-embroidered-shirt,,,,,,,,L,RUST-FLORAL-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+rust-floral-embroidered-shirt,,,,,,,,XL,RUST-FLORAL-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+rust-floral-embroidered-shirt,,,,,,,,XXL,RUST-FLORAL-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+black-and-white-check-shirt,Black & White Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,BLACK-AND-WHITE-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/black-and-white-check-shirt.webp,1,Black & White Check Shirt,draft
+black-and-white-check-shirt,,,,,,,,M,BLACK-AND-WHITE-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+black-and-white-check-shirt,,,,,,,,L,BLACK-AND-WHITE-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+black-and-white-check-shirt,,,,,,,,XL,BLACK-AND-WHITE-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+black-and-white-check-shirt,,,,,,,,XXL,BLACK-AND-WHITE-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+red-racing-jacket,Red Racing Jacket,"<p>A washed denim piece with real character.</p><ul><li>Washed finish</li><li>Full sleeves</li><li>Wash inside out, separately</li></ul>",ChicOut,Denim & Jackets,"denim, Denim & jackets",FALSE,Size,S,RED-RACING-JACKET-S,,,deny,manual,2999.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/red-racing-jacket.webp,1,Red Racing Jacket,draft
+red-racing-jacket,,,,,,,,M,RED-RACING-JACKET-M,,,deny,manual,2999.00,TRUE,TRUE,,,,
+red-racing-jacket,,,,,,,,L,RED-RACING-JACKET-L,,,deny,manual,2999.00,TRUE,TRUE,,,,
+red-racing-jacket,,,,,,,,XL,RED-RACING-JACKET-XL,,,deny,manual,2999.00,TRUE,TRUE,,,,
+red-racing-jacket,,,,,,,,XXL,RED-RACING-JACKET-XXL,,,deny,manual,2999.00,TRUE,TRUE,,,,
+light-grey-textured-shirt,Light Grey Textured Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,LIGHT-GREY-TEXTURED-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/light-grey-textured-shirt.webp,1,Light Grey Textured Shirt,draft
+light-grey-textured-shirt,,,,,,,,M,LIGHT-GREY-TEXTURED-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+light-grey-textured-shirt,,,,,,,,L,LIGHT-GREY-TEXTURED-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+light-grey-textured-shirt,,,,,,,,XL,LIGHT-GREY-TEXTURED-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+light-grey-textured-shirt,,,,,,,,XXL,LIGHT-GREY-TEXTURED-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+brown-floral-embroidered-shirt,Brown Floral Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,BROWN-FLORAL-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/brown-floral-embroidered-shirt.webp,1,Brown Floral Embroidered Shirt,draft
+brown-floral-embroidered-shirt,,,,,,,,M,BROWN-FLORAL-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-floral-embroidered-shirt,,,,,,,,L,BROWN-FLORAL-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-floral-embroidered-shirt,,,,,,,,XL,BROWN-FLORAL-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-floral-embroidered-shirt,,,,,,,,XXL,BROWN-FLORAL-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-heritage-check-shirt,Brown Heritage Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,BROWN-HERITAGE-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/brown-heritage-check-shirt.webp,1,Brown Heritage Check Shirt,draft
+brown-heritage-check-shirt,,,,,,,,M,BROWN-HERITAGE-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brown-heritage-check-shirt,,,,,,,,L,BROWN-HERITAGE-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brown-heritage-check-shirt,,,,,,,,XL,BROWN-HERITAGE-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brown-heritage-check-shirt,,,,,,,,XXL,BROWN-HERITAGE-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+coffee-blossom-embroidered-shirt,Coffee Blossom Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,COFFEE-BLOSSOM-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/coffee-blossom-embroidered-shirt.webp,1,Coffee Blossom Embroidered Shirt,draft
+coffee-blossom-embroidered-shirt,,,,,,,,M,COFFEE-BLOSSOM-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+coffee-blossom-embroidered-shirt,,,,,,,,L,COFFEE-BLOSSOM-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+coffee-blossom-embroidered-shirt,,,,,,,,XL,COFFEE-BLOSSOM-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+coffee-blossom-embroidered-shirt,,,,,,,,XXL,COFFEE-BLOSSOM-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+white-pinstripe-shirt,White Pinstripe Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,WHITE-PINSTRIPE-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/white-pinstripe-shirt.webp,1,White Pinstripe Shirt,draft
+white-pinstripe-shirt,,,,,,,,M,WHITE-PINSTRIPE-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+white-pinstripe-shirt,,,,,,,,L,WHITE-PINSTRIPE-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+white-pinstripe-shirt,,,,,,,,XL,WHITE-PINSTRIPE-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+white-pinstripe-shirt,,,,,,,,XXL,WHITE-PINSTRIPE-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+midnight-purple-shirt,Midnight Purple Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,MIDNIGHT-PURPLE-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/midnight-purple-shirt.webp,1,Midnight Purple Shirt,draft
+midnight-purple-shirt,,,,,,,,M,MIDNIGHT-PURPLE-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+midnight-purple-shirt,,,,,,,,L,MIDNIGHT-PURPLE-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+midnight-purple-shirt,,,,,,,,XL,MIDNIGHT-PURPLE-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+midnight-purple-shirt,,,,,,,,XXL,MIDNIGHT-PURPLE-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+taupe-oxford-shirt,Taupe Oxford Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,TAUPE-OXFORD-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/taupe-oxford-shirt.webp,1,Taupe Oxford Shirt,draft
+taupe-oxford-shirt,,,,,,,,M,TAUPE-OXFORD-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+taupe-oxford-shirt,,,,,,,,L,TAUPE-OXFORD-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+taupe-oxford-shirt,,,,,,,,XL,TAUPE-OXFORD-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+taupe-oxford-shirt,,,,,,,,XXL,TAUPE-OXFORD-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+khaki-drawstring-trousers,Khaki Drawstring Trousers,"<p>Comfortable trousers with an easy, relaxed shape.</p><ul><li>Relaxed fit</li><li>Side pockets</li><li>Machine wash cold</li></ul>",ChicOut,Trousers,"trousers, Trousers",FALSE,Waist,28,KHAKI-DRAWSTRING-TROUSERS-28,,,deny,manual,1499.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/khaki-drawstring-trousers.webp,1,Khaki Drawstring Trousers,draft
+khaki-drawstring-trousers,,,,,,,,30,KHAKI-DRAWSTRING-TROUSERS-30,,,deny,manual,1499.00,TRUE,TRUE,,,,
+khaki-drawstring-trousers,,,,,,,,32,KHAKI-DRAWSTRING-TROUSERS-32,,,deny,manual,1499.00,TRUE,TRUE,,,,
+khaki-drawstring-trousers,,,,,,,,34,KHAKI-DRAWSTRING-TROUSERS-34,,,deny,manual,1499.00,TRUE,TRUE,,,,
+khaki-drawstring-trousers,,,,,,,,36,KHAKI-DRAWSTRING-TROUSERS-36,,,deny,manual,1499.00,TRUE,TRUE,,,,
+sky-blue-check-shirt,Sky Blue Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,SKY-BLUE-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/sky-blue-check-shirt.webp,1,Sky Blue Check Shirt,draft
+sky-blue-check-shirt,,,,,,,,M,SKY-BLUE-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+sky-blue-check-shirt,,,,,,,,L,SKY-BLUE-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+sky-blue-check-shirt,,,,,,,,XL,SKY-BLUE-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+sky-blue-check-shirt,,,,,,,,XXL,SKY-BLUE-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brick-red-check-shirt,Brick Red Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,BRICK-RED-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/brick-red-check-shirt.webp,1,Brick Red Check Shirt,draft
+brick-red-check-shirt,,,,,,,,M,BRICK-RED-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brick-red-check-shirt,,,,,,,,L,BRICK-RED-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brick-red-check-shirt,,,,,,,,XL,BRICK-RED-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brick-red-check-shirt,,,,,,,,XXL,BRICK-RED-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+dusty-mauve-shirt,Dusty Mauve Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,DUSTY-MAUVE-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/dusty-mauve-shirt.webp,1,Dusty Mauve Shirt,draft
+dusty-mauve-shirt,,,,,,,,M,DUSTY-MAUVE-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+dusty-mauve-shirt,,,,,,,,L,DUSTY-MAUVE-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+dusty-mauve-shirt,,,,,,,,XL,DUSTY-MAUVE-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+dusty-mauve-shirt,,,,,,,,XXL,DUSTY-MAUVE-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+white-drawstring-trousers,White Drawstring Trousers,"<p>Comfortable trousers with an easy, relaxed shape.</p><ul><li>Relaxed fit</li><li>Side pockets</li><li>Machine wash cold</li></ul>",ChicOut,Trousers,"trousers, Trousers",FALSE,Waist,28,WHITE-DRAWSTRING-TROUSERS-28,,,deny,manual,1499.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/white-drawstring-trousers.webp,1,White Drawstring Trousers,draft
+white-drawstring-trousers,,,,,,,,30,WHITE-DRAWSTRING-TROUSERS-30,,,deny,manual,1499.00,TRUE,TRUE,,,,
+white-drawstring-trousers,,,,,,,,32,WHITE-DRAWSTRING-TROUSERS-32,,,deny,manual,1499.00,TRUE,TRUE,,,,
+white-drawstring-trousers,,,,,,,,34,WHITE-DRAWSTRING-TROUSERS-34,,,deny,manual,1499.00,TRUE,TRUE,,,,
+white-drawstring-trousers,,,,,,,,36,WHITE-DRAWSTRING-TROUSERS-36,,,deny,manual,1499.00,TRUE,TRUE,,,,
+black-solid-shirt,Black Solid Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,BLACK-SOLID-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/black-solid-shirt.webp,1,Black Solid Shirt,draft
+black-solid-shirt,,,,,,,,M,BLACK-SOLID-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+black-solid-shirt,,,,,,,,L,BLACK-SOLID-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+black-solid-shirt,,,,,,,,XL,BLACK-SOLID-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+black-solid-shirt,,,,,,,,XXL,BLACK-SOLID-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+jet-black-shirt,Jet Black Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,JET-BLACK-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/jet-black-shirt.webp,1,Jet Black Shirt,draft
+jet-black-shirt,,,,,,,,M,JET-BLACK-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+jet-black-shirt,,,,,,,,L,JET-BLACK-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+jet-black-shirt,,,,,,,,XL,JET-BLACK-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+jet-black-shirt,,,,,,,,XXL,JET-BLACK-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+olive-check-shirt,Olive Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes, Bestseller",FALSE,Size,S,OLIVE-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/olive-check-shirt.webp,1,Olive Check Shirt,draft
+olive-check-shirt,,,,,,,,M,OLIVE-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+olive-check-shirt,,,,,,,,L,OLIVE-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+olive-check-shirt,,,,,,,,XL,OLIVE-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+olive-check-shirt,,,,,,,,XXL,OLIVE-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+cream-motorsport-zip-polo,Cream Motorsport Zip Polo,"<p>An easy top for off-duty days. Pair it with relaxed trousers or jeans.</p><ul><li>Easy, relaxed fit</li><li>Ribbed or tipped trims</li><li>Machine wash cold</li></ul>",ChicOut,T-Shirts & Polos,"tees, Tees & polos",FALSE,Size,S,CREAM-MOTORSPORT-ZIP-POLO-S,,,deny,manual,1199.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/cream-motorsport-zip-polo.webp,1,Cream Motorsport Zip Polo,draft
+cream-motorsport-zip-polo,,,,,,,,M,CREAM-MOTORSPORT-ZIP-POLO-M,,,deny,manual,1199.00,TRUE,TRUE,,,,
+cream-motorsport-zip-polo,,,,,,,,L,CREAM-MOTORSPORT-ZIP-POLO-L,,,deny,manual,1199.00,TRUE,TRUE,,,,
+cream-motorsport-zip-polo,,,,,,,,XL,CREAM-MOTORSPORT-ZIP-POLO-XL,,,deny,manual,1199.00,TRUE,TRUE,,,,
+cream-motorsport-zip-polo,,,,,,,,XXL,CREAM-MOTORSPORT-ZIP-POLO-XXL,,,deny,manual,1199.00,TRUE,TRUE,,,,
+chocolate-oxford-shirt,Chocolate Oxford Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,CHOCOLATE-OXFORD-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/chocolate-oxford-shirt.webp,1,Chocolate Oxford Shirt,draft
+chocolate-oxford-shirt,,,,,,,,M,CHOCOLATE-OXFORD-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+chocolate-oxford-shirt,,,,,,,,L,CHOCOLATE-OXFORD-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+chocolate-oxford-shirt,,,,,,,,XL,CHOCOLATE-OXFORD-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+chocolate-oxford-shirt,,,,,,,,XXL,CHOCOLATE-OXFORD-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+brown-statement-embroidered-shirt,Brown Statement Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed, Bestseller",FALSE,Size,S,BROWN-STATEMENT-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/brown-statement-embroidered-shirt.webp,1,Brown Statement Embroidered Shirt,draft
+brown-statement-embroidered-shirt,,,,,,,,M,BROWN-STATEMENT-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-statement-embroidered-shirt,,,,,,,,L,BROWN-STATEMENT-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-statement-embroidered-shirt,,,,,,,,XL,BROWN-STATEMENT-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-statement-embroidered-shirt,,,,,,,,XXL,BROWN-STATEMENT-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+grey-floral-print-shirt,Grey Floral Print Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,GREY-FLORAL-PRINT-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/grey-floral-print-shirt.webp,1,Grey Floral Print Shirt,draft
+grey-floral-print-shirt,,,,,,,,M,GREY-FLORAL-PRINT-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+grey-floral-print-shirt,,,,,,,,L,GREY-FLORAL-PRINT-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+grey-floral-print-shirt,,,,,,,,XL,GREY-FLORAL-PRINT-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+grey-floral-print-shirt,,,,,,,,XXL,GREY-FLORAL-PRINT-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+white-oxford-shirt,White Oxford Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,WHITE-OXFORD-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/white-oxford-shirt.webp,1,White Oxford Shirt,draft
+white-oxford-shirt,,,,,,,,M,WHITE-OXFORD-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+white-oxford-shirt,,,,,,,,L,WHITE-OXFORD-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+white-oxford-shirt,,,,,,,,XL,WHITE-OXFORD-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+white-oxford-shirt,,,,,,,,XXL,WHITE-OXFORD-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+black-teal-bloom-shirt,Black Teal Bloom Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,BLACK-TEAL-BLOOM-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/black-teal-bloom-shirt.webp,1,Black Teal Bloom Shirt,draft
+black-teal-bloom-shirt,,,,,,,,M,BLACK-TEAL-BLOOM-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+black-teal-bloom-shirt,,,,,,,,L,BLACK-TEAL-BLOOM-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+black-teal-bloom-shirt,,,,,,,,XL,BLACK-TEAL-BLOOM-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+black-teal-bloom-shirt,,,,,,,,XXL,BLACK-TEAL-BLOOM-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+charcoal-solid-shirt,Charcoal Solid Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,CHARCOAL-SOLID-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/charcoal-solid-shirt.webp,1,Charcoal Solid Shirt,draft
+charcoal-solid-shirt,,,,,,,,M,CHARCOAL-SOLID-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+charcoal-solid-shirt,,,,,,,,L,CHARCOAL-SOLID-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+charcoal-solid-shirt,,,,,,,,XL,CHARCOAL-SOLID-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+charcoal-solid-shirt,,,,,,,,XXL,CHARCOAL-SOLID-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+rust-drawstring-trousers,Rust Drawstring Trousers,"<p>Comfortable trousers with an easy, relaxed shape.</p><ul><li>Relaxed fit</li><li>Side pockets</li><li>Machine wash cold</li></ul>",ChicOut,Trousers,"trousers, Trousers",FALSE,Waist,28,RUST-DRAWSTRING-TROUSERS-28,,,deny,manual,1499.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/rust-drawstring-trousers.webp,1,Rust Drawstring Trousers,draft
+rust-drawstring-trousers,,,,,,,,30,RUST-DRAWSTRING-TROUSERS-30,,,deny,manual,1499.00,TRUE,TRUE,,,,
+rust-drawstring-trousers,,,,,,,,32,RUST-DRAWSTRING-TROUSERS-32,,,deny,manual,1499.00,TRUE,TRUE,,,,
+rust-drawstring-trousers,,,,,,,,34,RUST-DRAWSTRING-TROUSERS-34,,,deny,manual,1499.00,TRUE,TRUE,,,,
+rust-drawstring-trousers,,,,,,,,36,RUST-DRAWSTRING-TROUSERS-36,,,deny,manual,1499.00,TRUE,TRUE,,,,
+ecru-wide-leg-jeans,Ecru Wide-Leg Jeans,"<p>Everyday jeans in a versatile wash.</p><ul><li>Five-pocket styling</li><li>Button and zip fly</li><li>Wash inside out, separately</li></ul>",ChicOut,Jeans,"jeans, Jeans",FALSE,Waist,28,ECRU-WIDE-LEG-JEANS-28,,,deny,manual,1799.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/ecru-wide-leg-jeans.webp,1,Ecru Wide-Leg Jeans,draft
+ecru-wide-leg-jeans,,,,,,,,30,ECRU-WIDE-LEG-JEANS-30,,,deny,manual,1799.00,TRUE,TRUE,,,,
+ecru-wide-leg-jeans,,,,,,,,32,ECRU-WIDE-LEG-JEANS-32,,,deny,manual,1799.00,TRUE,TRUE,,,,
+ecru-wide-leg-jeans,,,,,,,,34,ECRU-WIDE-LEG-JEANS-34,,,deny,manual,1799.00,TRUE,TRUE,,,,
+ecru-wide-leg-jeans,,,,,,,,36,ECRU-WIDE-LEG-JEANS-36,,,deny,manual,1799.00,TRUE,TRUE,,,,
+bottle-green-shirt,Bottle Green Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,BOTTLE-GREEN-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/bottle-green-shirt.webp,1,Bottle Green Shirt,draft
+bottle-green-shirt,,,,,,,,M,BOTTLE-GREEN-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+bottle-green-shirt,,,,,,,,L,BOTTLE-GREEN-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+bottle-green-shirt,,,,,,,,XL,BOTTLE-GREEN-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+bottle-green-shirt,,,,,,,,XXL,BOTTLE-GREEN-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+monochrome-floral-print-shirt,Monochrome Floral Print Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed, New",FALSE,Size,S,MONOCHROME-FLORAL-PRINT-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/monochrome-floral-print-shirt.webp,1,Monochrome Floral Print Shirt,draft
+monochrome-floral-print-shirt,,,,,,,,M,MONOCHROME-FLORAL-PRINT-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+monochrome-floral-print-shirt,,,,,,,,L,MONOCHROME-FLORAL-PRINT-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+monochrome-floral-print-shirt,,,,,,,,XL,MONOCHROME-FLORAL-PRINT-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+monochrome-floral-print-shirt,,,,,,,,XXL,MONOCHROME-FLORAL-PRINT-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+lilac-micro-stripe-shirt,Lilac Micro-Stripe Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,LILAC-MICRO-STRIPE-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/lilac-micro-stripe-shirt.webp,1,Lilac Micro-Stripe Shirt,draft
+lilac-micro-stripe-shirt,,,,,,,,M,LILAC-MICRO-STRIPE-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+lilac-micro-stripe-shirt,,,,,,,,L,LILAC-MICRO-STRIPE-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+lilac-micro-stripe-shirt,,,,,,,,XL,LILAC-MICRO-STRIPE-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+lilac-micro-stripe-shirt,,,,,,,,XXL,LILAC-MICRO-STRIPE-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+cocoa-mauve-shirt,Cocoa Mauve Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,COCOA-MAUVE-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/cocoa-mauve-shirt.webp,1,Cocoa Mauve Shirt,draft
+cocoa-mauve-shirt,,,,,,,,M,COCOA-MAUVE-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+cocoa-mauve-shirt,,,,,,,,L,COCOA-MAUVE-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+cocoa-mauve-shirt,,,,,,,,XL,COCOA-MAUVE-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+cocoa-mauve-shirt,,,,,,,,XXL,COCOA-MAUVE-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+brown-stripe-long-sleeve-tee,Brown Stripe Long-Sleeve Tee,"<p>An easy top for off-duty days. Pair it with relaxed trousers or jeans.</p><ul><li>Easy, relaxed fit</li><li>Ribbed or tipped trims</li><li>Machine wash cold</li></ul>",ChicOut,T-Shirts & Polos,"tees, Tees & polos",FALSE,Size,S,BROWN-STRIPE-LONG-SLEEVE-TEE-S,,,deny,manual,999.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/brown-stripe-long-sleeve-tee.webp,1,Brown Stripe Long-Sleeve Tee,draft
+brown-stripe-long-sleeve-tee,,,,,,,,M,BROWN-STRIPE-LONG-SLEEVE-TEE-M,,,deny,manual,999.00,TRUE,TRUE,,,,
+brown-stripe-long-sleeve-tee,,,,,,,,L,BROWN-STRIPE-LONG-SLEEVE-TEE-L,,,deny,manual,999.00,TRUE,TRUE,,,,
+brown-stripe-long-sleeve-tee,,,,,,,,XL,BROWN-STRIPE-LONG-SLEEVE-TEE-XL,,,deny,manual,999.00,TRUE,TRUE,,,,
+brown-stripe-long-sleeve-tee,,,,,,,,XXL,BROWN-STRIPE-LONG-SLEEVE-TEE-XXL,,,deny,manual,999.00,TRUE,TRUE,,,,
+mint-floral-embroidered-shirt,Mint Floral Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,MINT-FLORAL-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/mint-floral-embroidered-shirt.webp,1,Mint Floral Embroidered Shirt,draft
+mint-floral-embroidered-shirt,,,,,,,,M,MINT-FLORAL-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+mint-floral-embroidered-shirt,,,,,,,,L,MINT-FLORAL-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+mint-floral-embroidered-shirt,,,,,,,,XL,MINT-FLORAL-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+mint-floral-embroidered-shirt,,,,,,,,XXL,MINT-FLORAL-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+rose-pink-embroidered-shirt,Rose Pink Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,ROSE-PINK-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/rose-pink-embroidered-shirt.webp,1,Rose Pink Embroidered Shirt,draft
+rose-pink-embroidered-shirt,,,,,,,,M,ROSE-PINK-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+rose-pink-embroidered-shirt,,,,,,,,L,ROSE-PINK-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+rose-pink-embroidered-shirt,,,,,,,,XL,ROSE-PINK-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+rose-pink-embroidered-shirt,,,,,,,,XXL,ROSE-PINK-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-textured-shirt,Brown Textured Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,BROWN-TEXTURED-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/brown-textured-shirt.webp,1,Brown Textured Shirt,draft
+brown-textured-shirt,,,,,,,,M,BROWN-TEXTURED-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+brown-textured-shirt,,,,,,,,L,BROWN-TEXTURED-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+brown-textured-shirt,,,,,,,,XL,BROWN-TEXTURED-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+brown-textured-shirt,,,,,,,,XXL,BROWN-TEXTURED-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+maroon-pinstripe-shirt,Maroon Pinstripe Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,MAROON-PINSTRIPE-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/maroon-pinstripe-shirt.webp,1,Maroon Pinstripe Shirt,draft
+maroon-pinstripe-shirt,,,,,,,,M,MAROON-PINSTRIPE-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+maroon-pinstripe-shirt,,,,,,,,L,MAROON-PINSTRIPE-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+maroon-pinstripe-shirt,,,,,,,,XL,MAROON-PINSTRIPE-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+maroon-pinstripe-shirt,,,,,,,,XXL,MAROON-PINSTRIPE-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+indigo-straight-jeans,Indigo Straight Jeans,"<p>Everyday jeans in a versatile wash.</p><ul><li>Five-pocket styling</li><li>Button and zip fly</li><li>Wash inside out, separately</li></ul>",ChicOut,Jeans,"jeans, Jeans",FALSE,Waist,28,INDIGO-STRAIGHT-JEANS-28,,,deny,manual,1799.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/indigo-straight-jeans.webp,1,Indigo Straight Jeans,draft
+indigo-straight-jeans,,,,,,,,30,INDIGO-STRAIGHT-JEANS-30,,,deny,manual,1799.00,TRUE,TRUE,,,,
+indigo-straight-jeans,,,,,,,,32,INDIGO-STRAIGHT-JEANS-32,,,deny,manual,1799.00,TRUE,TRUE,,,,
+indigo-straight-jeans,,,,,,,,34,INDIGO-STRAIGHT-JEANS-34,,,deny,manual,1799.00,TRUE,TRUE,,,,
+indigo-straight-jeans,,,,,,,,36,INDIGO-STRAIGHT-JEANS-36,,,deny,manual,1799.00,TRUE,TRUE,,,,
+cream-windowpane-check-shirt,Cream Windowpane Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,CREAM-WINDOWPANE-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/cream-windowpane-check-shirt.webp,1,Cream Windowpane Check Shirt,draft
+cream-windowpane-check-shirt,,,,,,,,M,CREAM-WINDOWPANE-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+cream-windowpane-check-shirt,,,,,,,,L,CREAM-WINDOWPANE-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+cream-windowpane-check-shirt,,,,,,,,XL,CREAM-WINDOWPANE-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+cream-windowpane-check-shirt,,,,,,,,XXL,CREAM-WINDOWPANE-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+lavender-stripe-shirt,Lavender Stripe Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,LAVENDER-STRIPE-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/lavender-stripe-shirt.webp,1,Lavender Stripe Shirt,draft
+lavender-stripe-shirt,,,,,,,,M,LAVENDER-STRIPE-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+lavender-stripe-shirt,,,,,,,,L,LAVENDER-STRIPE-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+lavender-stripe-shirt,,,,,,,,XL,LAVENDER-STRIPE-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+lavender-stripe-shirt,,,,,,,,XXL,LAVENDER-STRIPE-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brown-stripe-shirt,Brown Stripe Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,BROWN-STRIPE-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/brown-stripe-shirt.webp,1,Brown Stripe Shirt,draft
+brown-stripe-shirt,,,,,,,,M,BROWN-STRIPE-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brown-stripe-shirt,,,,,,,,L,BROWN-STRIPE-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brown-stripe-shirt,,,,,,,,XL,BROWN-STRIPE-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+brown-stripe-shirt,,,,,,,,XXL,BROWN-STRIPE-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+black-denim-shirt,Black Denim Shirt,"<p>A washed denim piece with real character.</p><ul><li>Washed finish</li><li>Full sleeves</li><li>Wash inside out, separately</li></ul>",ChicOut,Denim & Jackets,"denim, Denim & jackets",FALSE,Size,S,BLACK-DENIM-SHIRT-S,,,deny,manual,1799.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/black-denim-shirt.webp,1,Black Denim Shirt,draft
+black-denim-shirt,,,,,,,,M,BLACK-DENIM-SHIRT-M,,,deny,manual,1799.00,TRUE,TRUE,,,,
+black-denim-shirt,,,,,,,,L,BLACK-DENIM-SHIRT-L,,,deny,manual,1799.00,TRUE,TRUE,,,,
+black-denim-shirt,,,,,,,,XL,BLACK-DENIM-SHIRT-XL,,,deny,manual,1799.00,TRUE,TRUE,,,,
+black-denim-shirt,,,,,,,,XXL,BLACK-DENIM-SHIRT-XXL,,,deny,manual,1799.00,TRUE,TRUE,,,,
+vintage-wash-denim-shirt,Vintage Wash Denim Shirt,"<p>A washed denim piece with real character.</p><ul><li>Washed finish</li><li>Full sleeves</li><li>Wash inside out, separately</li></ul>",ChicOut,Denim & Jackets,"denim, Denim & jackets, New",FALSE,Size,S,VINTAGE-WASH-DENIM-SHIRT-S,,,deny,manual,1799.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/vintage-wash-denim-shirt.webp,1,Vintage Wash Denim Shirt,draft
+vintage-wash-denim-shirt,,,,,,,,M,VINTAGE-WASH-DENIM-SHIRT-M,,,deny,manual,1799.00,TRUE,TRUE,,,,
+vintage-wash-denim-shirt,,,,,,,,L,VINTAGE-WASH-DENIM-SHIRT-L,,,deny,manual,1799.00,TRUE,TRUE,,,,
+vintage-wash-denim-shirt,,,,,,,,XL,VINTAGE-WASH-DENIM-SHIRT-XL,,,deny,manual,1799.00,TRUE,TRUE,,,,
+vintage-wash-denim-shirt,,,,,,,,XXL,VINTAGE-WASH-DENIM-SHIRT-XXL,,,deny,manual,1799.00,TRUE,TRUE,,,,
+khaki-solid-shirt,Khaki Solid Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,KHAKI-SOLID-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/khaki-solid-shirt.webp,1,Khaki Solid Shirt,draft
+khaki-solid-shirt,,,,,,,,M,KHAKI-SOLID-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+khaki-solid-shirt,,,,,,,,L,KHAKI-SOLID-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+khaki-solid-shirt,,,,,,,,XL,KHAKI-SOLID-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+khaki-solid-shirt,,,,,,,,XXL,KHAKI-SOLID-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+wine-solid-shirt,Wine Solid Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,WINE-SOLID-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/wine-solid-shirt.webp,1,Wine Solid Shirt,draft
+wine-solid-shirt,,,,,,,,M,WINE-SOLID-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+wine-solid-shirt,,,,,,,,L,WINE-SOLID-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+wine-solid-shirt,,,,,,,,XL,WINE-SOLID-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+wine-solid-shirt,,,,,,,,XXL,WINE-SOLID-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+rose-check-shirt,Rose Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,ROSE-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/rose-check-shirt.webp,1,Rose Check Shirt,draft
+rose-check-shirt,,,,,,,,M,ROSE-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+rose-check-shirt,,,,,,,,L,ROSE-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+rose-check-shirt,,,,,,,,XL,ROSE-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+rose-check-shirt,,,,,,,,XXL,ROSE-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+beige-western-embroidered-shirt,Beige Western Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,BEIGE-WESTERN-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/beige-western-embroidered-shirt.webp,1,Beige Western Embroidered Shirt,draft
+beige-western-embroidered-shirt,,,,,,,,M,BEIGE-WESTERN-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+beige-western-embroidered-shirt,,,,,,,,L,BEIGE-WESTERN-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+beige-western-embroidered-shirt,,,,,,,,XL,BEIGE-WESTERN-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+beige-western-embroidered-shirt,,,,,,,,XXL,BEIGE-WESTERN-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+maroon-check-shirt,Maroon Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,MAROON-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/maroon-check-shirt.webp,1,Maroon Check Shirt,draft
+maroon-check-shirt,,,,,,,,M,MAROON-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+maroon-check-shirt,,,,,,,,L,MAROON-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+maroon-check-shirt,,,,,,,,XL,MAROON-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+maroon-check-shirt,,,,,,,,XXL,MAROON-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+lavender-embroidered-shirt,Lavender Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed, New",FALSE,Size,S,LAVENDER-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/lavender-embroidered-shirt.webp,1,Lavender Embroidered Shirt,draft
+lavender-embroidered-shirt,,,,,,,,M,LAVENDER-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+lavender-embroidered-shirt,,,,,,,,L,LAVENDER-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+lavender-embroidered-shirt,,,,,,,,XL,LAVENDER-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+lavender-embroidered-shirt,,,,,,,,XXL,LAVENDER-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+mustard-check-shirt,Mustard Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,MUSTARD-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/mustard-check-shirt.webp,1,Mustard Check Shirt,draft
+mustard-check-shirt,,,,,,,,M,MUSTARD-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+mustard-check-shirt,,,,,,,,L,MUSTARD-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+mustard-check-shirt,,,,,,,,XL,MUSTARD-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+mustard-check-shirt,,,,,,,,XXL,MUSTARD-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+plum-solid-shirt,Plum Solid Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,PLUM-SOLID-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/plum-solid-shirt.webp,1,Plum Solid Shirt,draft
+plum-solid-shirt,,,,,,,,M,PLUM-SOLID-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+plum-solid-shirt,,,,,,,,L,PLUM-SOLID-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+plum-solid-shirt,,,,,,,,XL,PLUM-SOLID-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+plum-solid-shirt,,,,,,,,XXL,PLUM-SOLID-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+mid-blue-straight-jeans,Mid Blue Straight Jeans,"<p>Everyday jeans in a versatile wash.</p><ul><li>Five-pocket styling</li><li>Button and zip fly</li><li>Wash inside out, separately</li></ul>",ChicOut,Jeans,"jeans, Jeans",FALSE,Waist,28,MID-BLUE-STRAIGHT-JEANS-28,,,deny,manual,1799.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/mid-blue-straight-jeans.webp,1,Mid Blue Straight Jeans,draft
+mid-blue-straight-jeans,,,,,,,,30,MID-BLUE-STRAIGHT-JEANS-30,,,deny,manual,1799.00,TRUE,TRUE,,,,
+mid-blue-straight-jeans,,,,,,,,32,MID-BLUE-STRAIGHT-JEANS-32,,,deny,manual,1799.00,TRUE,TRUE,,,,
+mid-blue-straight-jeans,,,,,,,,34,MID-BLUE-STRAIGHT-JEANS-34,,,deny,manual,1799.00,TRUE,TRUE,,,,
+mid-blue-straight-jeans,,,,,,,,36,MID-BLUE-STRAIGHT-JEANS-36,,,deny,manual,1799.00,TRUE,TRUE,,,,
+maroon-solid-shirt,Maroon Solid Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,MAROON-SOLID-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/maroon-solid-shirt.webp,1,Maroon Solid Shirt,draft
+maroon-solid-shirt,,,,,,,,M,MAROON-SOLID-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+maroon-solid-shirt,,,,,,,,L,MAROON-SOLID-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+maroon-solid-shirt,,,,,,,,XL,MAROON-SOLID-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+maroon-solid-shirt,,,,,,,,XXL,MAROON-SOLID-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+black-drawstring-trousers,Black Drawstring Trousers,"<p>Comfortable trousers with an easy, relaxed shape.</p><ul><li>Relaxed fit</li><li>Side pockets</li><li>Machine wash cold</li></ul>",ChicOut,Trousers,"trousers, Trousers",FALSE,Waist,28,BLACK-DRAWSTRING-TROUSERS-28,,,deny,manual,1499.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/black-drawstring-trousers.webp,1,Black Drawstring Trousers,draft
+black-drawstring-trousers,,,,,,,,30,BLACK-DRAWSTRING-TROUSERS-30,,,deny,manual,1499.00,TRUE,TRUE,,,,
+black-drawstring-trousers,,,,,,,,32,BLACK-DRAWSTRING-TROUSERS-32,,,deny,manual,1499.00,TRUE,TRUE,,,,
+black-drawstring-trousers,,,,,,,,34,BLACK-DRAWSTRING-TROUSERS-34,,,deny,manual,1499.00,TRUE,TRUE,,,,
+black-drawstring-trousers,,,,,,,,36,BLACK-DRAWSTRING-TROUSERS-36,,,deny,manual,1499.00,TRUE,TRUE,,,,
+blue-baggy-jeans,Blue Baggy Jeans,"<p>Everyday jeans in a versatile wash.</p><ul><li>Five-pocket styling</li><li>Button and zip fly</li><li>Wash inside out, separately</li></ul>",ChicOut,Jeans,"jeans, Jeans",FALSE,Waist,28,BLUE-BAGGY-JEANS-28,,,deny,manual,1799.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/blue-baggy-jeans.webp,1,Blue Baggy Jeans,draft
+blue-baggy-jeans,,,,,,,,30,BLUE-BAGGY-JEANS-30,,,deny,manual,1799.00,TRUE,TRUE,,,,
+blue-baggy-jeans,,,,,,,,32,BLUE-BAGGY-JEANS-32,,,deny,manual,1799.00,TRUE,TRUE,,,,
+blue-baggy-jeans,,,,,,,,34,BLUE-BAGGY-JEANS-34,,,deny,manual,1799.00,TRUE,TRUE,,,,
+blue-baggy-jeans,,,,,,,,36,BLUE-BAGGY-JEANS-36,,,deny,manual,1799.00,TRUE,TRUE,,,,
+navy-jacquard-panel-shirt,Navy Jacquard Panel Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,NAVY-JACQUARD-PANEL-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/navy-jacquard-panel-shirt.webp,1,Navy Jacquard Panel Shirt,draft
+navy-jacquard-panel-shirt,,,,,,,,M,NAVY-JACQUARD-PANEL-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+navy-jacquard-panel-shirt,,,,,,,,L,NAVY-JACQUARD-PANEL-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+navy-jacquard-panel-shirt,,,,,,,,XL,NAVY-JACQUARD-PANEL-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+navy-jacquard-panel-shirt,,,,,,,,XXL,NAVY-JACQUARD-PANEL-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+blush-pink-shirt,Blush Pink Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,BLUSH-PINK-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/blush-pink-shirt.webp,1,Blush Pink Shirt,draft
+blush-pink-shirt,,,,,,,,M,BLUSH-PINK-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+blush-pink-shirt,,,,,,,,L,BLUSH-PINK-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+blush-pink-shirt,,,,,,,,XL,BLUSH-PINK-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+blush-pink-shirt,,,,,,,,XXL,BLUSH-PINK-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+white-floral-hem-shirt,White Floral Hem Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed, Bestseller",FALSE,Size,S,WHITE-FLORAL-HEM-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/white-floral-hem-shirt.webp,1,White Floral Hem Shirt,draft
+white-floral-hem-shirt,,,,,,,,M,WHITE-FLORAL-HEM-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+white-floral-hem-shirt,,,,,,,,L,WHITE-FLORAL-HEM-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+white-floral-hem-shirt,,,,,,,,XL,WHITE-FLORAL-HEM-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+white-floral-hem-shirt,,,,,,,,XXL,WHITE-FLORAL-HEM-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+rust-orange-shirt,Rust Orange Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,RUST-ORANGE-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/rust-orange-shirt.webp,1,Rust Orange Shirt,draft
+rust-orange-shirt,,,,,,,,M,RUST-ORANGE-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+rust-orange-shirt,,,,,,,,L,RUST-ORANGE-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+rust-orange-shirt,,,,,,,,XL,RUST-ORANGE-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+rust-orange-shirt,,,,,,,,XXL,RUST-ORANGE-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+burgundy-solid-shirt,Burgundy Solid Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,BURGUNDY-SOLID-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/burgundy-solid-shirt.webp,1,Burgundy Solid Shirt,draft
+burgundy-solid-shirt,,,,,,,,M,BURGUNDY-SOLID-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+burgundy-solid-shirt,,,,,,,,L,BURGUNDY-SOLID-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+burgundy-solid-shirt,,,,,,,,XL,BURGUNDY-SOLID-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+burgundy-solid-shirt,,,,,,,,XXL,BURGUNDY-SOLID-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+grey-flannel-check-shirt,Grey Flannel Check Shirt,"<p>A full-sleeve shirt in a classic check or stripe — smart enough for work, easy enough for the weekend.</p><ul><li>Check or stripe pattern</li><li>Full sleeves with button cuffs</li><li>Curved hem</li><li>Machine wash cold</li></ul>",ChicOut,Checked & Striped Shirts,"checks, Checks & stripes",FALSE,Size,S,GREY-FLANNEL-CHECK-SHIRT-S,,,deny,manual,1399.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/grey-flannel-check-shirt.webp,1,Grey Flannel Check Shirt,draft
+grey-flannel-check-shirt,,,,,,,,M,GREY-FLANNEL-CHECK-SHIRT-M,,,deny,manual,1399.00,TRUE,TRUE,,,,
+grey-flannel-check-shirt,,,,,,,,L,GREY-FLANNEL-CHECK-SHIRT-L,,,deny,manual,1399.00,TRUE,TRUE,,,,
+grey-flannel-check-shirt,,,,,,,,XL,GREY-FLANNEL-CHECK-SHIRT-XL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+grey-flannel-check-shirt,,,,,,,,XXL,GREY-FLANNEL-CHECK-SHIRT-XXL,,,deny,manual,1399.00,TRUE,TRUE,,,,
+black-flared-trousers,Black Flared Trousers,"<p>Comfortable trousers with an easy, relaxed shape.</p><ul><li>Relaxed fit</li><li>Side pockets</li><li>Machine wash cold</li></ul>",ChicOut,Trousers,"trousers, Trousers",FALSE,Waist,28,BLACK-FLARED-TROUSERS-28,,,deny,manual,1499.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/black-flared-trousers.webp,1,Black Flared Trousers,draft
+black-flared-trousers,,,,,,,,30,BLACK-FLARED-TROUSERS-30,,,deny,manual,1499.00,TRUE,TRUE,,,,
+black-flared-trousers,,,,,,,,32,BLACK-FLARED-TROUSERS-32,,,deny,manual,1499.00,TRUE,TRUE,,,,
+black-flared-trousers,,,,,,,,34,BLACK-FLARED-TROUSERS-34,,,deny,manual,1499.00,TRUE,TRUE,,,,
+black-flared-trousers,,,,,,,,36,BLACK-FLARED-TROUSERS-36,,,deny,manual,1499.00,TRUE,TRUE,,,,
+mushroom-taupe-shirt,Mushroom Taupe Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,MUSHROOM-TAUPE-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/mushroom-taupe-shirt.webp,1,Mushroom Taupe Shirt,draft
+mushroom-taupe-shirt,,,,,,,,M,MUSHROOM-TAUPE-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+mushroom-taupe-shirt,,,,,,,,L,MUSHROOM-TAUPE-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+mushroom-taupe-shirt,,,,,,,,XL,MUSHROOM-TAUPE-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+mushroom-taupe-shirt,,,,,,,,XXL,MUSHROOM-TAUPE-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+brown-yoke-embroidered-shirt,Brown Yoke Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,BROWN-YOKE-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/brown-yoke-embroidered-shirt.webp,1,Brown Yoke Embroidered Shirt,draft
+brown-yoke-embroidered-shirt,,,,,,,,M,BROWN-YOKE-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-yoke-embroidered-shirt,,,,,,,,L,BROWN-YOKE-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-yoke-embroidered-shirt,,,,,,,,XL,BROWN-YOKE-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-yoke-embroidered-shirt,,,,,,,,XXL,BROWN-YOKE-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+ivory-pleated-trousers,Ivory Pleated Trousers,"<p>Comfortable trousers with an easy, relaxed shape.</p><ul><li>Relaxed fit</li><li>Side pockets</li><li>Machine wash cold</li></ul>",ChicOut,Trousers,"trousers, Trousers, New",FALSE,Waist,28,IVORY-PLEATED-TROUSERS-28,,,deny,manual,1499.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/ivory-pleated-trousers.webp,1,Ivory Pleated Trousers,draft
+ivory-pleated-trousers,,,,,,,,30,IVORY-PLEATED-TROUSERS-30,,,deny,manual,1499.00,TRUE,TRUE,,,,
+ivory-pleated-trousers,,,,,,,,32,IVORY-PLEATED-TROUSERS-32,,,deny,manual,1499.00,TRUE,TRUE,,,,
+ivory-pleated-trousers,,,,,,,,34,IVORY-PLEATED-TROUSERS-34,,,deny,manual,1499.00,TRUE,TRUE,,,,
+ivory-pleated-trousers,,,,,,,,36,IVORY-PLEATED-TROUSERS-36,,,deny,manual,1499.00,TRUE,TRUE,,,,
+burgundy-leaf-embroidered-shirt,Burgundy Leaf Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,BURGUNDY-LEAF-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/burgundy-leaf-embroidered-shirt.webp,1,Burgundy Leaf Embroidered Shirt,draft
+burgundy-leaf-embroidered-shirt,,,,,,,,M,BURGUNDY-LEAF-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+burgundy-leaf-embroidered-shirt,,,,,,,,L,BURGUNDY-LEAF-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+burgundy-leaf-embroidered-shirt,,,,,,,,XL,BURGUNDY-LEAF-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+burgundy-leaf-embroidered-shirt,,,,,,,,XXL,BURGUNDY-LEAF-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+ivory-satin-embroidered-shirt,Ivory Satin Embroidered Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,IVORY-SATIN-EMBROIDERED-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/ivory-satin-embroidered-shirt.webp,1,Ivory Satin Embroidered Shirt,draft
+ivory-satin-embroidered-shirt,,,,,,,,M,IVORY-SATIN-EMBROIDERED-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+ivory-satin-embroidered-shirt,,,,,,,,L,IVORY-SATIN-EMBROIDERED-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+ivory-satin-embroidered-shirt,,,,,,,,XL,IVORY-SATIN-EMBROIDERED-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+ivory-satin-embroidered-shirt,,,,,,,,XXL,IVORY-SATIN-EMBROIDERED-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+olive-green-shirt,Olive Green Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,OLIVE-GREEN-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/olive-green-shirt.webp,1,Olive Green Shirt,draft
+olive-green-shirt,,,,,,,,M,OLIVE-GREEN-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+olive-green-shirt,,,,,,,,L,OLIVE-GREEN-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+olive-green-shirt,,,,,,,,XL,OLIVE-GREEN-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+olive-green-shirt,,,,,,,,XXL,OLIVE-GREEN-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+mocha-drawstring-trousers,Mocha Drawstring Trousers,"<p>Comfortable trousers with an easy, relaxed shape.</p><ul><li>Relaxed fit</li><li>Side pockets</li><li>Machine wash cold</li></ul>",ChicOut,Trousers,"trousers, Trousers",FALSE,Waist,28,MOCHA-DRAWSTRING-TROUSERS-28,,,deny,manual,1499.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/mocha-drawstring-trousers.webp,1,Mocha Drawstring Trousers,draft
+mocha-drawstring-trousers,,,,,,,,30,MOCHA-DRAWSTRING-TROUSERS-30,,,deny,manual,1499.00,TRUE,TRUE,,,,
+mocha-drawstring-trousers,,,,,,,,32,MOCHA-DRAWSTRING-TROUSERS-32,,,deny,manual,1499.00,TRUE,TRUE,,,,
+mocha-drawstring-trousers,,,,,,,,34,MOCHA-DRAWSTRING-TROUSERS-34,,,deny,manual,1499.00,TRUE,TRUE,,,,
+mocha-drawstring-trousers,,,,,,,,36,MOCHA-DRAWSTRING-TROUSERS-36,,,deny,manual,1499.00,TRUE,TRUE,,,,
+faded-black-denim-shirt,Faded Black Denim Shirt,"<p>A washed denim piece with real character.</p><ul><li>Washed finish</li><li>Full sleeves</li><li>Wash inside out, separately</li></ul>",ChicOut,Denim & Jackets,"denim, Denim & jackets",FALSE,Size,S,FADED-BLACK-DENIM-SHIRT-S,,,deny,manual,1799.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/faded-black-denim-shirt.webp,1,Faded Black Denim Shirt,draft
+faded-black-denim-shirt,,,,,,,,M,FADED-BLACK-DENIM-SHIRT-M,,,deny,manual,1799.00,TRUE,TRUE,,,,
+faded-black-denim-shirt,,,,,,,,L,FADED-BLACK-DENIM-SHIRT-L,,,deny,manual,1799.00,TRUE,TRUE,,,,
+faded-black-denim-shirt,,,,,,,,XL,FADED-BLACK-DENIM-SHIRT-XL,,,deny,manual,1799.00,TRUE,TRUE,,,,
+faded-black-denim-shirt,,,,,,,,XXL,FADED-BLACK-DENIM-SHIRT-XXL,,,deny,manual,1799.00,TRUE,TRUE,,,,
+black-classic-shirt,Black Classic Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,BLACK-CLASSIC-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/black-classic-shirt.webp,1,Black Classic Shirt,draft
+black-classic-shirt,,,,,,,,M,BLACK-CLASSIC-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+black-classic-shirt,,,,,,,,L,BLACK-CLASSIC-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+black-classic-shirt,,,,,,,,XL,BLACK-CLASSIC-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+black-classic-shirt,,,,,,,,XXL,BLACK-CLASSIC-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+light-wash-flared-jeans,Light Wash Flared Jeans,"<p>Everyday jeans in a versatile wash.</p><ul><li>Five-pocket styling</li><li>Button and zip fly</li><li>Wash inside out, separately</li></ul>",ChicOut,Jeans,"jeans, Jeans",FALSE,Waist,28,LIGHT-WASH-FLARED-JEANS-28,,,deny,manual,1799.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/light-wash-flared-jeans.webp,1,Light Wash Flared Jeans,draft
+light-wash-flared-jeans,,,,,,,,30,LIGHT-WASH-FLARED-JEANS-30,,,deny,manual,1799.00,TRUE,TRUE,,,,
+light-wash-flared-jeans,,,,,,,,32,LIGHT-WASH-FLARED-JEANS-32,,,deny,manual,1799.00,TRUE,TRUE,,,,
+light-wash-flared-jeans,,,,,,,,34,LIGHT-WASH-FLARED-JEANS-34,,,deny,manual,1799.00,TRUE,TRUE,,,,
+light-wash-flared-jeans,,,,,,,,36,LIGHT-WASH-FLARED-JEANS-36,,,deny,manual,1799.00,TRUE,TRUE,,,,
+brown-motif-print-shirt,Brown Motif Print Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,BROWN-MOTIF-PRINT-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/brown-motif-print-shirt.webp,1,Brown Motif Print Shirt,draft
+brown-motif-print-shirt,,,,,,,,M,BROWN-MOTIF-PRINT-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-motif-print-shirt,,,,,,,,L,BROWN-MOTIF-PRINT-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-motif-print-shirt,,,,,,,,XL,BROWN-MOTIF-PRINT-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+brown-motif-print-shirt,,,,,,,,XXL,BROWN-MOTIF-PRINT-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+black-tipped-polo,Black Tipped Polo,"<p>An easy top for off-duty days. Pair it with relaxed trousers or jeans.</p><ul><li>Easy, relaxed fit</li><li>Ribbed or tipped trims</li><li>Machine wash cold</li></ul>",ChicOut,T-Shirts & Polos,"tees, Tees & polos",FALSE,Size,S,BLACK-TIPPED-POLO-S,,,deny,manual,999.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/black-tipped-polo.webp,1,Black Tipped Polo,draft
+black-tipped-polo,,,,,,,,M,BLACK-TIPPED-POLO-M,,,deny,manual,999.00,TRUE,TRUE,,,,
+black-tipped-polo,,,,,,,,L,BLACK-TIPPED-POLO-L,,,deny,manual,999.00,TRUE,TRUE,,,,
+black-tipped-polo,,,,,,,,XL,BLACK-TIPPED-POLO-XL,,,deny,manual,999.00,TRUE,TRUE,,,,
+black-tipped-polo,,,,,,,,XXL,BLACK-TIPPED-POLO-XXL,,,deny,manual,999.00,TRUE,TRUE,,,,
+sky-blue-oxford-shirt,Sky Blue Oxford Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,SKY-BLUE-OXFORD-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/sky-blue-oxford-shirt.webp,1,Sky Blue Oxford Shirt,draft
+sky-blue-oxford-shirt,,,,,,,,M,SKY-BLUE-OXFORD-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+sky-blue-oxford-shirt,,,,,,,,L,SKY-BLUE-OXFORD-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+sky-blue-oxford-shirt,,,,,,,,XL,SKY-BLUE-OXFORD-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+sky-blue-oxford-shirt,,,,,,,,XXL,SKY-BLUE-OXFORD-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+charcoal-grey-shirt,Charcoal Grey Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,CHARCOAL-GREY-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/charcoal-grey-shirt.webp,1,Charcoal Grey Shirt,draft
+charcoal-grey-shirt,,,,,,,,M,CHARCOAL-GREY-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+charcoal-grey-shirt,,,,,,,,L,CHARCOAL-GREY-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+charcoal-grey-shirt,,,,,,,,XL,CHARCOAL-GREY-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+charcoal-grey-shirt,,,,,,,,XXL,CHARCOAL-GREY-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+walnut-brown-shirt,Walnut Brown Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,WALNUT-BROWN-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/walnut-brown-shirt.webp,1,Walnut Brown Shirt,draft
+walnut-brown-shirt,,,,,,,,M,WALNUT-BROWN-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+walnut-brown-shirt,,,,,,,,L,WALNUT-BROWN-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+walnut-brown-shirt,,,,,,,,XL,WALNUT-BROWN-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+walnut-brown-shirt,,,,,,,,XXL,WALNUT-BROWN-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+grey-acid-wash-jeans,Grey Acid Wash Jeans,"<p>Everyday jeans in a versatile wash.</p><ul><li>Five-pocket styling</li><li>Button and zip fly</li><li>Wash inside out, separately</li></ul>",ChicOut,Jeans,"jeans, Jeans",FALSE,Waist,28,GREY-ACID-WASH-JEANS-28,,,deny,manual,1799.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/grey-acid-wash-jeans.webp,1,Grey Acid Wash Jeans,draft
+grey-acid-wash-jeans,,,,,,,,30,GREY-ACID-WASH-JEANS-30,,,deny,manual,1799.00,TRUE,TRUE,,,,
+grey-acid-wash-jeans,,,,,,,,32,GREY-ACID-WASH-JEANS-32,,,deny,manual,1799.00,TRUE,TRUE,,,,
+grey-acid-wash-jeans,,,,,,,,34,GREY-ACID-WASH-JEANS-34,,,deny,manual,1799.00,TRUE,TRUE,,,,
+grey-acid-wash-jeans,,,,,,,,36,GREY-ACID-WASH-JEANS-36,,,deny,manual,1799.00,TRUE,TRUE,,,,
+aubergine-shirt,Aubergine Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,AUBERGINE-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/aubergine-shirt.webp,1,Aubergine Shirt,draft
+aubergine-shirt,,,,,,,,M,AUBERGINE-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+aubergine-shirt,,,,,,,,L,AUBERGINE-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+aubergine-shirt,,,,,,,,XL,AUBERGINE-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+aubergine-shirt,,,,,,,,XXL,AUBERGINE-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+white-straight-jeans,White Straight Jeans,"<p>Everyday jeans in a versatile wash.</p><ul><li>Five-pocket styling</li><li>Button and zip fly</li><li>Wash inside out, separately</li></ul>",ChicOut,Jeans,"jeans, Jeans",FALSE,Waist,28,WHITE-STRAIGHT-JEANS-28,,,deny,manual,1799.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/white-straight-jeans.webp,1,White Straight Jeans,draft
+white-straight-jeans,,,,,,,,30,WHITE-STRAIGHT-JEANS-30,,,deny,manual,1799.00,TRUE,TRUE,,,,
+white-straight-jeans,,,,,,,,32,WHITE-STRAIGHT-JEANS-32,,,deny,manual,1799.00,TRUE,TRUE,,,,
+white-straight-jeans,,,,,,,,34,WHITE-STRAIGHT-JEANS-34,,,deny,manual,1799.00,TRUE,TRUE,,,,
+white-straight-jeans,,,,,,,,36,WHITE-STRAIGHT-JEANS-36,,,deny,manual,1799.00,TRUE,TRUE,,,,
+cinnamon-shirt,Cinnamon Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,CINNAMON-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/cinnamon-shirt.webp,1,Cinnamon Shirt,draft
+cinnamon-shirt,,,,,,,,M,CINNAMON-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+cinnamon-shirt,,,,,,,,L,CINNAMON-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+cinnamon-shirt,,,,,,,,XL,CINNAMON-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+cinnamon-shirt,,,,,,,,XXL,CINNAMON-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+berry-shirt,Berry Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,BERRY-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/berry-shirt.webp,1,Berry Shirt,draft
+berry-shirt,,,,,,,,M,BERRY-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+berry-shirt,,,,,,,,L,BERRY-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+berry-shirt,,,,,,,,XL,BERRY-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+berry-shirt,,,,,,,,XXL,BERRY-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+terracotta-shirt,Terracotta Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,TERRACOTTA-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/terracotta-shirt.webp,1,Terracotta Shirt,draft
+terracotta-shirt,,,,,,,,M,TERRACOTTA-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+terracotta-shirt,,,,,,,,L,TERRACOTTA-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+terracotta-shirt,,,,,,,,XL,TERRACOTTA-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+terracotta-shirt,,,,,,,,XXL,TERRACOTTA-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+black-relaxed-trousers,Black Relaxed Trousers,"<p>Comfortable trousers with an easy, relaxed shape.</p><ul><li>Relaxed fit</li><li>Side pockets</li><li>Machine wash cold</li></ul>",ChicOut,Trousers,"trousers, Trousers",FALSE,Waist,28,BLACK-RELAXED-TROUSERS-28,,,deny,manual,1499.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/black-relaxed-trousers.webp,1,Black Relaxed Trousers,draft
+black-relaxed-trousers,,,,,,,,30,BLACK-RELAXED-TROUSERS-30,,,deny,manual,1499.00,TRUE,TRUE,,,,
+black-relaxed-trousers,,,,,,,,32,BLACK-RELAXED-TROUSERS-32,,,deny,manual,1499.00,TRUE,TRUE,,,,
+black-relaxed-trousers,,,,,,,,34,BLACK-RELAXED-TROUSERS-34,,,deny,manual,1499.00,TRUE,TRUE,,,,
+black-relaxed-trousers,,,,,,,,36,BLACK-RELAXED-TROUSERS-36,,,deny,manual,1499.00,TRUE,TRUE,,,,
+burnt-orange-shirt,Burnt Orange Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,BURNT-ORANGE-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/burnt-orange-shirt.webp,1,Burnt Orange Shirt,draft
+burnt-orange-shirt,,,,,,,,M,BURNT-ORANGE-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+burnt-orange-shirt,,,,,,,,L,BURNT-ORANGE-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+burnt-orange-shirt,,,,,,,,XL,BURNT-ORANGE-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+burnt-orange-shirt,,,,,,,,XXL,BURNT-ORANGE-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+black-line-floral-print-shirt,Black Line-Floral Print Shirt,"<p>A statement shirt with embroidered or printed detail. Wear it tucked into trousers or loose over denim.</p><ul><li>Embroidered or printed design</li><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Gentle wash, iron on reverse</li></ul>",ChicOut,Embroidered & Printed Shirts,"designer, Embroidered & printed",FALSE,Size,S,BLACK-LINE-FLORAL-PRINT-SHIRT-S,,,deny,manual,1599.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/black-line-floral-print-shirt.webp,1,Black Line-Floral Print Shirt,draft
+black-line-floral-print-shirt,,,,,,,,M,BLACK-LINE-FLORAL-PRINT-SHIRT-M,,,deny,manual,1599.00,TRUE,TRUE,,,,
+black-line-floral-print-shirt,,,,,,,,L,BLACK-LINE-FLORAL-PRINT-SHIRT-L,,,deny,manual,1599.00,TRUE,TRUE,,,,
+black-line-floral-print-shirt,,,,,,,,XL,BLACK-LINE-FLORAL-PRINT-SHIRT-XL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+black-line-floral-print-shirt,,,,,,,,XXL,BLACK-LINE-FLORAL-PRINT-SHIRT-XXL,,,deny,manual,1599.00,TRUE,TRUE,,,,
+espresso-brown-shirt,Espresso Brown Shirt,"<p>An everyday full-sleeve shirt in a rich, easy-to-wear colour.</p><ul><li>Full sleeves with button cuffs</li><li>Classic collar</li><li>Curved hem</li><li>Machine wash cold, wash dark colours separately</li></ul>",ChicOut,Solid Shirts,"solid, Solid shirts",FALSE,Size,S,ESPRESSO-BROWN-SHIRT-S,,,deny,manual,1299.00,TRUE,TRUE,https://raw.githubusercontent.com/jaisudhakar/chicoutstore/claude/cool-wozniak-ryjlun/store-theme/html/assets/img/products/espresso-brown-shirt.webp,1,Espresso Brown Shirt,draft
+espresso-brown-shirt,,,,,,,,M,ESPRESSO-BROWN-SHIRT-M,,,deny,manual,1299.00,TRUE,TRUE,,,,
+espresso-brown-shirt,,,,,,,,L,ESPRESSO-BROWN-SHIRT-L,,,deny,manual,1299.00,TRUE,TRUE,,,,
+espresso-brown-shirt,,,,,,,,XL,ESPRESSO-BROWN-SHIRT-XL,,,deny,manual,1299.00,TRUE,TRUE,,,,
+espresso-brown-shirt,,,,,,,,XXL,ESPRESSO-BROWN-SHIRT-XXL,,,deny,manual,1299.00,TRUE,TRUE,,,,

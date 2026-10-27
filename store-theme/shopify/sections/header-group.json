@@ -1,0 +1,9 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement": { "type": "announcement-bar", "settings": { "text": "New arrivals are here — shop the latest shirts", "link": "shopify://collections/all" } },
+    "header": { "type": "header", "settings": { "menu": "main-menu" } }
+  },
+  "order": [ "announcement", "header" ]
+}

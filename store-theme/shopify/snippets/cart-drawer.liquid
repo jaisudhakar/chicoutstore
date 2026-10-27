@@ -1,0 +1,9 @@
+{%- comment -%} Cart drawer shell; theme.js fills it from /cart.js {%- endcomment -%}
+<aside class="cart-drawer" aria-label="{{ 'cart.title' | t }}">
+  <div class="cart-drawer__head">
+    <h2 class="h3">{{ 'cart.title' | t }}</h2>
+    <button type="button" class="icon-button" data-cart-close aria-label="{{ 'general.close' | t }}">{% render 'icon', name: 'close' %}</button>
+  </div>
+  <div class="cart-drawer__items" data-cart-items></div>
+  <div class="cart-drawer__foot" data-cart-foot></div>
+</aside>

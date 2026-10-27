@@ -1,0 +1,17 @@
+<div class="page-width page-content">
+  <h1 class="h1" style="margin-bottom:24px">{{ blog.title | escape }}</h1>
+  {%- paginate blog.articles by 12 -%}
+    {%- for article in blog.articles -%}
+      <article style="padding:20px 0;border-bottom:1px solid var(--c-line)">
+        <h2 class="h2"><a href="{{ article.url }}" style="text-decoration:none">{{ article.title | escape }}</a></h2>
+        <p class="muted">{{ article.published_at | time_tag: format: 'date' }}</p>
+        <div class="rte">{{ article.excerpt_or_content | strip_html | truncatewords: 40 }}</div>
+      </article>
+    {%- endfor -%}
+    {%- if paginate.pages > 1 -%}<nav class="pagination" aria-label="Pagination">{{ paginate | default_pagination }}</nav>{%- endif -%}
+  {%- endpaginate -%}
+</div>
+
+{% schema %}
+{ "name": "Blog", "settings": [] }
+{% endschema %}

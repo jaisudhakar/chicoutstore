@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "l1": { "type": "collection_link", "settings": { "collection": "embroidered-printed-shirts", "label": "Embroidered & printed" } },
+        "l2": { "type": "collection_link", "settings": { "collection": "solid-shirts", "label": "Solid shirts" } },
+        "l3": { "type": "collection_link", "settings": { "collection": "checked-striped-shirts", "label": "Checks & stripes" } },
+        "l4": { "type": "collection_link", "settings": { "collection": "t-shirts-polos", "label": "Tees & polos" } },
+        "l5": { "type": "collection_link", "settings": { "collection": "denim-jackets", "label": "Denim & jackets" } },
+        "l6": { "type": "collection_link", "settings": { "collection": "trousers", "label": "Trousers" } },
+        "l7": { "type": "collection_link", "settings": { "collection": "jeans", "label": "Jeans" } }
+      },
+      "block_order": [ "l1", "l2", "l3", "l4", "l5", "l6", "l7" ],
+      "settings": { "per_page": 24 }
+    }
+  },
+  "order": [ "main" ]
+}

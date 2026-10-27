@@ -1,0 +1,33 @@
+<div class="page-width">
+  <div class="collection-hero">
+    <h1 class="h1">{{ 'search.title' | t }}</h1>
+    <form action="{{ routes.search_url }}" method="get" role="search" class="newsletter-form" style="margin:20px 0 0;max-width:520px">
+      <input type="hidden" name="type" value="product">
+      <label class="visually-hidden" for="SearchPage">{{ 'general.search' | t }}</label>
+      <input id="SearchPage" type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'search.placeholder' | t }}">
+      <button class="button" type="submit">{{ 'general.search' | t }}</button>
+    </form>
+    {%- if search.performed -%}<p class="muted">{{ 'search.results_for' | t: terms: search.terms }}</p>{%- endif -%}
+  </div>
+  {%- if search.performed -%}
+    {%- paginate search.results by 24 -%}
+      {%- if search.results_count > 0 -%}
+        <ul class="product-grid">
+          {%- for item in search.results -%}
+            {%- if item.object_type == 'product' -%}
+              {% render 'product-card', product: item %}
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+        {%- if paginate.pages > 1 -%}<nav class="pagination" aria-label="Pagination">{{ paginate | default_pagination }}</nav>{%- endif -%}
+      {%- else -%}
+        <div class="empty-state"><p>{{ 'search.no_results' | t }}</p></div>
+      {%- endif -%}
+    {%- endpaginate -%}
+  {%- endif -%}
+  <div style="height:64px"></div>
+</div>
+
+{% schema %}
+{ "name": "Search results", "settings": [] }
+{% endschema %}

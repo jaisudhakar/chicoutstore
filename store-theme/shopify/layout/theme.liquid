@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="">
+    <link rel="canonical" href="{{ canonical_url }}">
+    {%- if settings.favicon != blank -%}
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {%- endif -%}
+    <title>
+      {{ page_title }}
+      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+    </title>
+    {% if page_description %}
+      <meta name="description" content="{{ page_description | escape }}">
+    {% endif %}
+    {% render 'meta-tags' %}
+
+    {{ settings.type_body_font | font_face: font_display: 'swap' }}
+    {{ settings.type_body_font | font_modify: 'weight', 'bold' | font_face: font_display: 'swap' }}
+    {{ settings.type_header_font | font_face: font_display: 'swap' }}
+    {%- if settings.type_body_font.system? == false -%}
+      {{ settings.type_body_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: true }}
+    {%- endif -%}
+
+    {{ 'store.css' | asset_url | stylesheet_tag }}
+    <style>
+      :root {
+        --font-body: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+        --font-heading: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+        --c-bg: {{ settings.color_background }};
+        --c-text: {{ settings.color_text }};
+        --c-soft: {{ settings.color_soft }};
+        --c-dark: {{ settings.color_button }};
+        --radius: {{ settings.button_radius }}px;
+      }
+    </style>
+
+    <script>
+      window.theme = {
+        moneyFormat: {{ shop.money_format | json }},
+        routes: {
+          root: {{ routes.root_url | json }},
+          cart: {{ routes.cart_url | json }},
+          cartAdd: {{ routes.cart_add_url | json }},
+          cartChange: {{ routes.cart_change_url | json }},
+          search: {{ routes.search_url | json }},
+          predictiveSearch: {{ routes.predictive_search_url | json }}
+        },
+        strings: {
+          cartEmpty: {{ 'cart.empty' | t | json }},
+          remove: {{ 'cart.remove' | t | json }},
+          subtotal: {{ 'cart.subtotal' | t | json }},
+          taxes: {{ 'cart.taxes' | t | json }},
+          checkout: {{ 'cart.checkout' | t | json }},
+          viewCart: {{ 'cart.view' | t | json }},
+          continue: {{ 'cart.continue' | t | json }},
+          noResults: {{ 'search.no_results' | t | json }},
+          addError: {{ 'product.add_error' | t | json }}
+        }
+      };
+    </script>
+    <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+
+    {{ content_for_header }}
+  </head>
+
+  <body class="template-{{ template.name }}">
+    <a class="skip-link visually-hidden" href="#MainContent">{{ 'accessibility.skip_to_content' | t }}</a>
+    {% sections 'header-group' %}
+
+    <main id="MainContent" role="main" tabindex="-1">
+      {{ content_for_layout }}
+    </main>
+
+    {% sections 'footer-group' %}
+    {% render 'cart-drawer' %}
+    <div class="overlay" data-overlay></div>
+  </body>
+</html>

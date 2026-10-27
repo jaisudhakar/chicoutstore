@@ -1,0 +1,11 @@
+<div class="page-width page-content" style="max-width:480px">
+  <h1 class="h1" style="margin-bottom:20px">{{ 'customer.create_account' | t }}</h1>
+  {%- form 'create_customer', class: 'contact-form', novalidate: 'novalidate' -%}
+    {%- if form.errors -%}<div class="form-message form-message--error full">{{ form.errors | default_errors }}</div>{%- endif -%}
+    <label class="field">{{ 'customer.first_name' | t }}<input type="text" name="customer[first_name]" autocomplete="given-name"></label>
+    <label class="field">{{ 'customer.last_name' | t }}<input type="text" name="customer[last_name]" autocomplete="family-name"></label>
+    <label class="field full">{{ 'customer.email' | t }}<input type="email" name="customer[email]" autocomplete="email" required></label>
+    <label class="field full">{{ 'customer.password' | t }}<input type="password" name="customer[password]" autocomplete="new-password" required></label>
+    <div class="full"><button class="button button--full" type="submit">{{ 'customer.create_account' | t }}</button></div>
+  {%- endform -%}
+</div>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop all — ChicOut</title>
+  <meta name="description" content="Shop ChicOut shirts, trousers and jeans.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/store.css">
+</head>
+<body>
+  <div data-header></div>
+  <main id="main">
+    <div class="page-width">
+      <div class="collection-hero">
+        <ol class="breadcrumbs"><li><a href="index.html">Home</a></li><li data-crumb>Shop all</li></ol>
+        <h1 class="h1" data-collection-title>Shop all</h1>
+        <p data-collection-desc></p>
+      </div>
+      <div data-collection>
+        <div class="facets">
+          <div class="facets__pills" data-pills></div>
+          <div class="facets__right">
+            <label for="sort">Sort by</label>
+            <select id="sort" class="select" data-sort>
+              <option value="featured">Featured</option>
+              <option value="title-asc">Alphabetically, A–Z</option>
+              <option value="title-desc">Alphabetically, Z–A</option>
+              <option value="price-asc">Price, low to high</option>
+              <option value="price-desc">Price, high to low</option>
+            </select>
+            <span class="muted" data-product-count></span>
+          </div>
+        </div>
+        <ul class="product-grid" data-grid></ul>
+        <div class="empty-state" data-empty hidden><p>No products found.</p><a class="button" href="collection.html">Shop all</a></div>
+      </div>
+      <div style="height:64px"></div>
+    </div>
+  </main>
+  <div data-footer></div>
+  <script src="assets/products.js"></script>
+  <script src="assets/store.js"></script>
+</body>
+</html>
