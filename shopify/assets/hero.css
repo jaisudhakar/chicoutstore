@@ -12,7 +12,7 @@
 @keyframes blob { to { transform: translate(6vw, 4vw) scale(1.15); } }
 .hero-word {
   position: absolute; left: 50%; bottom: -.18em; z-index: -1; transform: translateX(-50%);
-  font-size: clamp(120px, 22vw, 380px); font-family: var(--font-heading-family); font-weight: 600; letter-spacing: -.02em; line-height: 1;
+  font-size: clamp(120px, 22vw, 380px); font-weight: 900; font-style: italic; letter-spacing: -.06em; line-height: 1;
   color: transparent; -webkit-text-stroke: 1px rgba(17, 17, 17, .08); white-space: nowrap; pointer-events: none;
 }
 

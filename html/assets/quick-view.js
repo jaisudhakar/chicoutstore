@@ -1,4 +1,4 @@
-/* Quick view — full-screen product pop-up shared by Hang Rail Pro and Tiny Steps.
+/* Quick view — full-screen product pop-up shared by the shirt rail and product grids.
  *
  *   QuickView.open({ items: [product, …], index: 0, onIndex: fn })
  *

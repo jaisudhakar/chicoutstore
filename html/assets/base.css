@@ -4,20 +4,18 @@
    section puts it on its own wrapper. Change colours and fonts here per client.
    ============================================================ */
 .sx {
-  --font-heading-family: "Fredoka", "Nunito", "Helvetica Neue", Arial, sans-serif;
-  --font-body-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-heading-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-accent: "Instrument Serif", Georgia, "Times New Roman", serif;
-  --ink: #2a2238;
-  --ink-2: #463d55;
-  --paper: #fffaf5;
-  --muted: #7a7086;
-  --line: #f0e3d8;
-  --mist: #fdf3ec;
-  --cream: #fff1e6;
-  --accent: #ff6f61;
-  --accent-2: #8fd1b5;
-  --sun: #f6c445;
-  --radius: 22px;
+  --ink: #1d1814;
+  --ink-2: #3a322b;
+  --paper: #f7f3ee;
+  --muted: #7b7068;
+  --line: #e4dbd0;
+  --mist: #efe9e1;
+  --cream: #ece3d6;
+  --accent: #9a4a2f;
+  --radius: 14px;
   --gutter: clamp(16px, 3vw, 40px);
   --maxw: 1440px;
   --ease-out: cubic-bezier(.22, 1, .36, 1);
@@ -41,11 +39,11 @@
 .sx .eyebrow.no-line::before { display: none; }
 .sx .display {
   margin: 0; font-family: var(--font-heading-family);
-  font-size: clamp(44px, 7.2vw, 112px); font-weight: 600; line-height: .95; letter-spacing: -.025em;
+  font-size: clamp(44px, 7.2vw, 112px); font-weight: 800; line-height: .92; letter-spacing: -.045em;
 }
-.sx .h1 { margin: 0; font-family: var(--font-heading-family); font-size: clamp(40px, 5.4vw, 80px); font-weight: 600; line-height: .98; letter-spacing: -.02em; }
-.sx .h2 { margin: 0; font-family: var(--font-heading-family); font-size: clamp(32px, 4vw, 56px); font-weight: 600; line-height: 1.02; letter-spacing: -.02em; }
-.sx .h3 { margin: 0; font-family: var(--font-heading-family); font-size: clamp(22px, 2vw, 28px); font-weight: 600; line-height: 1.15; letter-spacing: -.01em; }
+.sx .h1 { margin: 0; font-size: clamp(40px, 5.4vw, 80px); font-weight: 800; line-height: .95; letter-spacing: -.04em; }
+.sx .h2 { margin: 0; font-size: clamp(32px, 4vw, 56px); font-weight: 800; line-height: 1; letter-spacing: -.035em; }
+.sx .h3 { margin: 0; font-size: clamp(22px, 2vw, 28px); font-weight: 700; line-height: 1.15; letter-spacing: -.02em; }
 .sx .display em, .sx .h1 em, .sx .h2 em, .sx .h3 em, .sx .accent {
   font-family: var(--font-accent); font-style: italic; font-weight: 400; letter-spacing: -.01em;
 }

@@ -9,7 +9,6 @@ for f in base.css motion.css motion.js \
          site-cart.js quick-view.js quick-view.css \
          rack-showcase.js rack-showcase.css \
          hang-rail.js hang-rail.css \
-         step-orbit.js step-orbit.css \
          obsessed.js obsessed.css; do
   cp "html/assets/$f" "shopify/assets/$f"
 done

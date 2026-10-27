@@ -37,7 +37,7 @@
   function isCurrent(href) {
     var file = href.split('#')[0].split('?')[0].toLowerCase();
     if (file !== page || href.indexOf('#') >= 0) return false;
-    // links with a query (shop.html?c=baby) only match that exact filter
+    // links with a query (shop.html?c=jeans) only match that exact filter
     var q = href.split('#')[0].split('?')[1] || '';
     return q ? location.search.replace(/^\?/, '') === q : !/[?&]c=/.test(location.search);
   }

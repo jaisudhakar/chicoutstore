@@ -274,9 +274,10 @@
     // size guide
     var sg = $('[data-size-guide]');
     if (sg) {
-      $('[data-sg-body]', sg).innerHTML = p.type === 'footwear'
-        ? '<table><tr><th>EU</th><th>UK (child)</th><th>Foot length</th><th>Approx. age</th></tr>' + [['19', '3', '11.5 cm', '9–12 months'], ['20', '4', '12.2 cm', '12–18 months'], ['21', '4.5', '12.9 cm', '18–24 months'], ['22', '5', '13.5 cm', '2 years'], ['23', '6', '14.2 cm', '2–3 years'], ['24', '7', '14.8 cm', '3 years']].map(function (r) { return '<tr><td>' + r.join('</td><td>') + '</td></tr>'; }).join('') + '</table>'
-        : '<table><tr><th>Size</th><th>Height</th><th>Weight</th><th>Chest</th></tr>' + [['0-3M', '56–62 cm', '3.5–6 kg', '40 cm'], ['3-6M', '62–68 cm', '6–8 kg', '43 cm'], ['6-12M', '68–80 cm', '8–10 kg', '46 cm'], ['12-18M', '80–86 cm', '10–11.5 kg', '48 cm'], ['1-2Y', '80–92 cm', '10–13 kg', '50 cm'], ['2-3Y', '92–98 cm', '13–15 kg', '52 cm'], ['3-4Y', '98–104 cm', '15–17 kg', '54 cm'], ['4-5Y', '104–110 cm', '17–19 kg', '56 cm']].map(function (r) { return '<tr><td>' + r.join('</td><td>') + '</td></tr>'; }).join('') + '</table>';
+      var bottoms = p.category === 'trousers' || p.category === 'jeans';
+      $('[data-sg-body]', sg).innerHTML = bottoms
+        ? '<table><tr><th>Waist size</th><th>Waist</th><th>Hip</th><th>Inseam</th></tr>' + [['28', '71 cm', '92 cm', '76 cm'], ['30', '76 cm', '97 cm', '77 cm'], ['32', '81 cm', '102 cm', '78 cm'], ['34', '86 cm', '107 cm', '79 cm'], ['36', '91 cm', '112 cm', '80 cm']].map(function (r) { return '<tr><td>' + r.join('</td><td>') + '</td></tr>'; }).join('') + '</table>'
+        : '<table><tr><th>Size</th><th>Chest</th><th>Length</th><th>Shoulder</th></tr>' + [['S', '100 cm', '72 cm', '44 cm'], ['M', '106 cm', '74 cm', '46 cm'], ['L', '112 cm', '76 cm', '48 cm'], ['XL', '118 cm', '78 cm', '50 cm'], ['XXL', '124 cm', '80 cm', '52 cm']].map(function (r) { return '<tr><td>' + r.join('</td><td>') + '</td></tr>'; }).join('') + '</table>';
       $('[data-sg-body]', sg).insertAdjacentHTML('beforeend', '<p class="muted" style="font-size:13px;margin:14px 0 0">Example measurements — replace with your own size chart.</p>');
       function sgOpen(o) { sg.classList.toggle('is-open', o); sg.setAttribute('aria-hidden', o ? 'false' : 'true'); }
       document.addEventListener('click', function (e) {

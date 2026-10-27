@@ -25,6 +25,8 @@
 .pc:hover .pc-img { transform: scale(1.05); }
 .pc:hover .pc-img-2 { opacity: 1; transform: scale(1.05); }
 .pc:hover .pc-img:not(.pc-img-2):has(+ .pc-img-2) { opacity: 0; }
+/* second image is the real product photo: show it full-bleed on hover */
+.pc-img.pc-img-2 { inset: 0; width: 100%; height: 100%; object-fit: cover; filter: none; }
 .pc-footwear .pc-img { inset: 20% 8%; width: 84%; height: 60%; }
 .pc-footwear:hover .pc-img { transform: translateY(-6%) rotate(-8deg) scale(1.08); }
 .pc-badge {

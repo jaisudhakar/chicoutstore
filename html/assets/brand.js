@@ -20,22 +20,22 @@ window.BRAND = {
   nav: [
     { label: 'Home', href: 'index.html' },
     { label: 'Shop', href: 'shop.html' },
-    { label: 'Baby', href: 'shop.html?c=baby' },
-    { label: 'Girls', href: 'shop.html?c=girls' },
-    { label: 'Boys', href: 'shop.html?c=boys' },
-    { label: 'Tiny Steps', href: 'index.html#step-orbit' },
+    { label: 'Shirts', href: 'shop.html?c=designer' },
+    { label: 'Trousers', href: 'shop.html?c=trousers' },
+    { label: 'Jeans', href: 'shop.html?c=jeans' },
+    { label: 'Lookbook', href: 'index.html#lookbook' },
     { label: 'About', href: 'about.html' },
     { label: 'Contact', href: 'contact.html' }
   ],
 
   // words in the scrolling strips
-  marquee: ['New arrivals', 'Soft cotton', 'Baby & kids', 'Gift sets', 'Tiny Steps', 'Made for play'],
+  marquee: ['New arrivals', 'Embroidered shirts', 'Checks & stripes', 'Relaxed trousers', 'Denim', 'Made to stand out'],
 
   // contact details — PLACEHOLDERS: replace with the store's real details
   contact: {
     email: 'hello@chicoutstore.in',
     phone: '+91 00000 00000',
-    address: 'Your store address, Kolkata, India',
+    address: 'Your store address, India',
     hours: 'Mon–Sat, 10:00–19:00 IST'
   },
 
@@ -47,16 +47,16 @@ window.BRAND = {
   footer: [
     { title: 'Shop', links: [
       { label: 'All products', href: 'shop.html' },
-      { label: 'Baby', href: 'shop.html?c=baby' },
-      { label: 'Girls', href: 'shop.html?c=girls' },
-      { label: 'Boys', href: 'shop.html?c=boys' },
-      { label: 'Nightwear', href: 'shop.html?c=nightwear' },
-      { label: 'Footwear', href: 'shop.html?c=footwear' }
+      { label: 'Embroidered & printed', href: 'shop.html?c=designer' },
+      { label: 'Solid shirts', href: 'shop.html?c=solid' },
+      { label: 'Checks & stripes', href: 'shop.html?c=checks' },
+      { label: 'Trousers', href: 'shop.html?c=trousers' },
+      { label: 'Jeans', href: 'shop.html?c=jeans' }
     ] },
     { title: 'Explore', links: [
       { label: 'New arrivals', href: 'index.html#new-arrivals' },
-      { label: 'The Washing Line', href: 'index.html#washing-line' },
-      { label: 'Tiny Steps', href: 'index.html#step-orbit' },
+      { label: 'The Shirt Rail', href: 'index.html#shirt-rail' },
+      { label: 'Lookbook', href: 'index.html#lookbook' },
       { label: 'About us', href: 'about.html' }
     ] },
     { title: 'Help', links: [
@@ -67,7 +67,7 @@ window.BRAND = {
   ],
 
   newsletter: {
-    title: 'Join the family',
-    text: 'New arrivals, festive edits and restocks of your favourites — straight to your inbox.'
+    title: 'Join the list',
+    text: 'New arrivals, restocks and limited embroidered drops — straight to your inbox.'
   }
 };

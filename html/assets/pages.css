@@ -90,7 +90,7 @@ body:not(.header-hidden) .shop-bar { top: var(--header-h); }
 .pdp-dots { display: none; }
 .pdp-info { position: sticky; top: calc(var(--header-h) + 20px); padding-bottom: 20px; }
 .pdp-cat { margin: 0 0 10px; font-size: 14px; color: var(--muted); }
-.pdp-name { margin: 0; font-size: clamp(34px, 3.6vw, 54px); font-family: var(--font-heading-family); font-weight: 600; line-height: 1; letter-spacing: -.02em; }
+.pdp-name { margin: 0; font-size: clamp(34px, 3.6vw, 54px); font-weight: 800; line-height: 1; letter-spacing: -.04em; }
 .pdp-price { margin: 16px 0 0; font-size: 22px; font-weight: 600; }
 .pdp-desc { margin: 20px 0 0; color: var(--ink-2); line-height: 1.6; max-width: 520px; }
 .pdp-opt { margin-top: 30px; }
@@ -177,7 +177,7 @@ body:not(.header-hidden) .shop-bar { top: var(--header-h); }
 .value svg { display: block; width: 56px; height: 56px; margin: 34px 0 30px; }
 .value svg path, .value svg circle, .value svg rect { stroke-dasharray: 200; stroke-dashoffset: 200; transition: stroke-dashoffset 1.6s var(--ease-out) .2s; }
 .value.is-in svg path, .value.is-in svg circle, .value.is-in svg rect { stroke-dashoffset: 0; }
-.value h3 { margin: 0; font-size: 26px; font-family: var(--font-heading-family); font-weight: 600; letter-spacing: -.02em; }
+.value h3 { margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -.03em; }
 .value p { margin: 12px 0 0; line-height: 1.6; opacity: .75; }
 .quote { text-align: center; }
 .quote blockquote { margin: 0 auto; max-width: 18ch; font-family: var(--font-accent); font-size: clamp(40px, 5.6vw, 88px); font-style: italic; line-height: 1.02; letter-spacing: -.02em; }
@@ -239,7 +239,7 @@ a.info-card:hover { background: var(--ink); color: #fff; transform: translateX(6
 
 /* ---------- 404 ---------- */
 .nf { min-height: calc(100vh - 96px); display: grid; place-items: center; text-align: center; padding: 60px 20px; }
-.nf-num { font-size: clamp(120px, 24vw, 340px); font-family: var(--font-heading-family); font-weight: 600; letter-spacing: -.02em; line-height: .85; }
+.nf-num { font-size: clamp(120px, 24vw, 340px); font-weight: 900; font-style: italic; letter-spacing: -.07em; line-height: .85; }
 .nf-hanger { width: 120px; margin: 0 auto 12px; transform-origin: 50% 8%; animation: swing 3.2s ease-in-out infinite; }
 @keyframes swing { 0%, 100% { transform: rotate(10deg); } 50% { transform: rotate(-10deg); } }
 .nf p { margin: 18px auto 30px; max-width: 420px; color: var(--muted); font-size: 18px; }

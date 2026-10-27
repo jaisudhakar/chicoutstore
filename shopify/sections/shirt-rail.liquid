@@ -1,0 +1,144 @@
+{%- comment -%}
+  Shirt rail — garments drift along a curved rail over a full-width backdrop.
+  Hover turns a piece to the front (rail pauses), click opens Quick view, drag to scrub.
+  Each block is one garment: product + optional side / front / back images
+  (default: the product's 1st, 2nd and 3rd media).
+{%- endcomment -%}
+{{ 'hang-rail.css' | asset_url | stylesheet_tag }}
+{{ 'quick-view.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'site-cart.js' | asset_url }}" defer></script>
+<script src="{{ 'quick-view.js' | asset_url }}" defer></script>
+<script src="{{ 'hang-rail.js' | asset_url }}" defer></script>
+
+{%- assign s = section.settings -%}
+<section
+  id="hang-rail-{{ section.id }}"
+  class="hr"
+  data-hr-section
+  data-speed="{{ s.speed }}"
+  data-sag="{{ s.sag | divided_by: 100.0 }}"
+  data-swing="{{ s.swing }}"
+  style="--hr-height: min({{ s.height }}vh, {{ s.max_height }}px); --hr-txt: {{ s.txt }};"
+>
+  <div
+    class="hr-bg"
+    {% if s.bg_image != blank %}style="background-image: url('{{ s.bg_image | image_url: width: 2400 }}')"{% endif %}
+  ></div>
+  <div class="hr-shade"></div>
+
+  <header class="hr-head">
+    {%- if s.eyebrow != blank or s.eyebrow_dim != blank -%}
+      <div class="hr-eyebrow">
+        <span>{{ s.eyebrow }}</span>
+        {%- if s.eyebrow != blank and s.eyebrow_dim != blank -%}<span class="hr-sep" aria-hidden="true"></span>{%- endif -%}
+        <span class="hr-dim">{{ s.eyebrow_dim }}</span>
+      </div>
+    {%- endif -%}
+    {%- if s.title != blank -%}<h2 class="hr-title">{{ s.title }}</h2>{%- endif -%}
+  </header>
+
+  <div class="hr-stage" data-hr-stage>
+    <svg class="hr-rail" data-hr-rail aria-hidden="true" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="hr-rail-grad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#cfd3d6"/><stop offset="1" stop-color="#8e9499"/>
+        </linearGradient>
+      </defs>
+      <path d=""/>
+    </svg>
+  </div>
+
+  <div class="hr-foot">
+    <div class="hr-cap" data-hr-cap aria-live="polite">
+      {%- if s.hint != blank -%}<span class="hr-hint">{{ s.hint }}</span>{%- endif -%}
+      <span class="hr-cap-item"><strong data-hr-cap-name></strong><span data-hr-cap-price></span></span>
+    </div>
+    <div class="hr-progress" aria-hidden="true"><span data-hr-progress></span></div>
+    <div class="hr-copy">
+      {%- if s.copy != blank -%}<p>{{ s.copy | newline_to_br }}</p>{%- endif -%}
+      {%- if s.cta_label != blank -%}
+        <a href="{{ s.cta_link | default: routes.all_products_collection_url }}">{{ s.cta_label }} <span aria-hidden="true">&rarr;</span></a>
+      {%- endif -%}
+    </div>
+  </div>
+
+  <script type="application/json" data-hr-json>
+    [
+      {%- assign first = true -%}
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign p = block.settings.product
+          if p == blank
+            continue
+          endif
+          assign side = block.settings.side_image | default: p.media[0].preview_image
+          assign front = block.settings.front_image | default: p.media[1].preview_image
+          assign back = block.settings.back_image | default: p.media[2].preview_image
+          if side == blank
+            continue
+          endif
+        -%}
+        {%- unless first -%},{%- endunless -%}
+        {%- assign first = false -%}
+        {
+          "name": {{ p.title | json }},
+          "price": {{ p.price | money | json }},
+          "tag": {{ p.price | money_without_trailing_zeros | json }},
+          "url": {{ p.url | json }},
+          "side": { "src": {{ side | image_url: height: 840 | json }}, "w": {{ side.width | default: 300 }}, "h": {{ side.height | default: 1000 }} }
+          {%- if front != blank -%},
+          "front": { "src": {{ front | image_url: height: 1400 | json }}, "w": {{ front.width | default: 750 }}, "h": {{ front.height | default: 1000 }} }
+          {%- endif -%}
+          {%- if back != blank -%},
+          "back": { "src": {{ back | image_url: height: 1400 | json }}, "w": {{ back.width | default: 750 }}, "h": {{ back.height | default: 1000 }} }
+          {%- endif -%},
+          {% render 'site-product-json', product: p %}
+        }
+      {%- endfor -%}
+    ]
+  </script>
+</section>
+
+{% schema %}
+{
+  "name": "Shirt rail",
+  "tag": "div",
+  "class": "section-hang-rail",
+  "settings": [
+    { "type": "image_picker", "id": "bg_image", "label": "Background photo", "info": "Wide landscape photo, at least 2400px wide." },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "NEW ARRIVALS" },
+    { "type": "text", "id": "eyebrow_dim", "label": "Eyebrow (light)", "default": "SOLIDS, TEES & POLOS" },
+    { "type": "text", "id": "title", "label": "Title", "default": "The Shirt Rail" },
+    { "type": "text", "id": "hint", "label": "Hint (bottom left)", "default": "Hover a piece · click to look closer" },
+    { "type": "textarea", "id": "copy", "label": "Copy (bottom right)", "default": "Rich colours, easy fits.\nThe shirts you reach for first." },
+    { "type": "text", "id": "cta_label", "label": "Link label", "default": "Shop new arrivals" },
+    { "type": "url", "id": "cta_link", "label": "Link" },
+    { "type": "color", "id": "txt", "label": "Text colour", "default": "#ffffff" },
+    { "type": "header", "content": "Rail" },
+    { "type": "range", "id": "height", "label": "Section height", "min": 50, "max": 100, "step": 2, "unit": "vh", "default": 92 },
+    { "type": "range", "id": "max_height", "label": "Max height", "min": 480, "max": 1100, "step": 20, "unit": "px", "default": 760 },
+    { "type": "range", "id": "sag", "label": "Rail sag", "min": 0, "max": 15, "step": 1, "unit": "%", "default": 7 },
+    { "type": "range", "id": "speed", "label": "Drift speed", "min": 0, "max": 80, "step": 2, "unit": "px", "default": 24, "info": "Pixels per second. 0 stops the drift." },
+    { "type": "range", "id": "swing", "label": "Swing", "min": 0, "max": 100, "step": 5, "unit": "%", "default": 70 }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Garment",
+      "settings": [
+        { "type": "product", "id": "product", "label": "Product" },
+        { "type": "image_picker", "id": "side_image", "label": "Side image", "info": "Transparent PNG/WebP, hanger at the top. Default: product image 1." },
+        { "type": "image_picker", "id": "front_image", "label": "Front image", "info": "Default: product image 2." },
+        { "type": "image_picker", "id": "back_image", "label": "Back image", "info": "Default: product image 3." }
+      ]
+    }
+  ],
+  "max_blocks": 16,
+  "presets": [
+    {
+      "name": "Shirt rail",
+      "blocks": [ { "type": "product" }, { "type": "product" }, { "type": "product" }, { "type": "product" }, { "type": "product" }, { "type": "product" } ]
+    }
+  ]
+}
+{% endschema %}
